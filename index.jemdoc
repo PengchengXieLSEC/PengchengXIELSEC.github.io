@@ -2,23 +2,30 @@
 ==Pengcheng Xie
 
 ~~~
-{}{img_left}{bio.jpg}{alt text}{200}{460}
-PhD,\n [http://lsec.cc.ac.cn/ LSEC], \n
+{}{img_left}{bio.jpg}{alt text}{130}{130}
+PhD Candident,\n 
+[http://lsec.cc.ac.cn/ LSEC], [http://www.amss.ac.cn/ AMSS], \n
 Phone: \+86 13203866776\n
-E-mail: xpc@lsec.cc.ac.cn
+E-mail: xpc@lsec.cc.ac.cn\n
+Address: AMSS CAS 55 Zhongguancun East Road, Haidian District, Beijing
 ~~~
 
 == About me
-I am currently an Ph.D Candident of Computing Mathematics at the Chinese Academy of Sciences and research affiliate at the [http://lsec.cc.ac.cn/ LSEC].
+I am currently a Ph.D Candident of Computing Mathematics at the Chinese Academy of Sciences and research affiliate at the [http://lsec.cc.ac.cn/ LSEC]. Supervisor: Prof. Ya-xiang Yuan ([http://lsec.cc.ac.cn/~yyx/ Homepage]).
 
 == Research
 My research interests include
 - Derivative-free Optimization
-- Machine Learning
 - Subspace Method
+- Machine Learning
 
 === Recent Publications
 . Pengcheng Xie, Molei Tao, \"Parametric Resonant Control of Macroscopic Behaviors of Multiple Oscillators\", 2019 American Control Conference (ACC), Philadelphia, PA, USA, 2019, pp. 1898-1905, doi: 10.23919/ACC.2019.8814709.
+. Nian-wen Si, Heng-jun Wang, Wei Li, Yi-dong Shan, and Pengcheng Xie  \"Chinese Part-of-speech Tagging Model Using Attention-based LSTM\", Computer Science, 2018, 45(4): 66-70, 82.
+. Pengcheng Xie, \"Mathematics: The blade of modern warfare\", Youth, ISSN: 1002-6835, 2016, 17:98, 128.
+. Miao Sun, Fuming Wang, Pengcheng Xie,and Wendong Zhu, \"Evaluation of Network Information Security\", Journal of Cryptology and Information Security, 2016, 28(5).
+
+
 
 [cv.pdf A brief cv].
 
