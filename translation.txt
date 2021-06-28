@@ -1,0 +1,131 @@
+-----------------------------3今天的一些问题-----------------------------------------
+1. time-invariant discrete-time system
+   时间稳定的离散时间系统
+2. optimal state feedback gain $K$ of the control law
+   控制系统的最有状态返回值$K$
+3. cost function
+   损失函数
+4. weighting matrices
+   权重矩阵
+5. LQR Controller
+   LQR控制器
+6. regulator problem
+   调节器问题
+7. state variable feedback regulator
+   状态变量反馈调节器
+8. the control input 
+   控制输入
+9. performance index
+   性能指数
+10. performance characteristic requirement
+    性能特点要求
+11.  controller input Iimitation
+     控制器输入限制
+12. expenditure of the energy of the control signal
+     控制信号能量的消耗
+13. relative importance
+    相对重要
+-------------------------以下是之前的---------------------------------------
+------------------------------2---------------------------------------------
+1. instantaneous attained minimum function value among the agents 
+   即时获得的粒子的最小函数值
+2. inter-agent function differences
+    内部粒子函数值差
+   
+3. new mapping of the step size of each agent 
+   每个粒子的迭代步长的新映射
+4. optimization dynamics
+   优化东西李彤
+5. The  vibrative mapping
+    震荡映射
+6. is the instantaneous attained minimum function value among the agents.
+     是即时获得的粒子的最小函数值
+7. control law
+   控制规则
+8. higher order components of the function
+   。。。的高次元
+9. the dynamics of the SUSD direction is described by...
+   SUSD方向的动力系统被。。。描述
+10. the search dynamics
+    搜索动力系统
+11. Exponential mapping（指数映射）
+12. trial step（试验步骤）
+    测试步
+13. transport step（传送步骤）
+    传送步
+14. Pseudocode
+15. Design（设定？）
+    设计
+16. Step size
+    步长
+17. 外部的扰动（external disturbance） 
+    外部扰动
+18. Swarm 群/拥挤（根据语境）
+19.  unforced system 不受力系统
+20. 渐进稳定（ asymptotically stable）
+21. 平衡点(equilibrium)
+22. locally input-to-state stable
+   局部输入状态稳定
+23. decent differences
+    相当好的差别
+24. total distance
+    总距离
+25. （minimum agent）（函数值最小的粒子）
+26. Class of fully linear models 全线性模型类
+27. update method （更新方法）
+28. the agent-update method （粒子更新方法）
+29. pure transport纯传送法
+30. fully Linear model and the fully quadratic model 全线性模型函数和全二次模型函数
+31. with errors that are not completely decrease 存在不完全减少的误差
+32. our algorithm performs different when they are with diffterent parameters and different mappings of the step size in details
+我们的算法在参数不同、步长不同时有不同的表现
+33. it holds the mapping of step size as the following
+它使用了如下步长
+----------------------------------1----------------------------
+1.       interpolation points 插值点集
+2.       covariance matrix 协方差矩阵
+3.       tuning of algorithmic parameters 算法参数调节
+4.       误差分析（error analysis）
+5.       动态定价（dynamic pricing）
+6.       直接搜索方法（Direct-search methods）
+7.       单纯形方法（simplex methods）
+8.       优化单纯形方法（modified simplex method）改进的单纯形方法
+9.       directional direct-search methods 方向直接搜索方法
+10.   生成集搜索法（ generating set search method） 
+11.   模型搜索法（pattern-search methods）模式搜索方法
+12.   mesh adaptive direct-search methods 自适应网格直接搜索方法
+13.   model-based methods 模型函数方法
+14.   polynomial model methods 多项式模型函数方法
+15.   linear interpolation model methods 线性插值模型函数方法
+16.   underdetermined quadratic interpolation model methods 欠定二次插值模型函数方法
+17.   regression model methods 回归模型函数方法
+18.   the radial basis function interpolation model method 径向基函数插值模型方法
+19.   The hybrid methods 混合方法
+20.   finite differences methods 有限差分方法
+21.   implicit filtering methods 隐式滤子方法
+22.   adaptive regularized methods 自适应正则化方法
+23.   line-search-based methods 线搜索方法
+24.   heuristic algorithms 启发式算法
+25.   simulated annealing algorithms 模拟退火算法
+26.   artificial neural network 人工神经网络
+27.   random search methods are analyzed in which candidates are drawn randomly near the current estimate.
+      我们在候选点随机地在现有估计的附近选取这一情形下分析搜索方法 
+28.   robust翻译为有力的？鲁棒的
+29.   a new mapping of the step size of each agent and claim the optimization dynamics.
+      一个关于粒子迭代步长的新映射，同时给出最优化动力系统
+30.   analytic forms 解析形式
+31.   smooth fields 光滑场
+32.   multi-robot distributed source 多智能体分布源
+33.   agent 粒子
+34.   evaluation of the field function 场函数的探测
+35.   climb the gradient 攀爬梯度
+36.   virtual agents 虚拟粒子
+37.   virtual search agents 虚拟搜索粒子
+38.   candidate solution 候选解
+39.   $\boldsymbol{x}_{c}=\frac{1}{M} \sum_{i=1}^{M} \boldsymbol{x}_{i}$是agents的中心（centers） 将centers翻译为中心？     翻译成中心没问题
+40.   principal components of the spatial distribution of the agents 
+       粒子空间分布的主成分
+41.   exploding or vanishing gradient problem
+      梯度爆炸或梯度消失问题
+42.   （沿SUSD方向的）transport
+       推送
