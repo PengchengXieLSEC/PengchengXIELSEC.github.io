@@ -2,3 +2,4 @@
 2. 什么样的函数f可以写成那种形式，是否有例？
 3. ||*||_B的具体性质：如什么样的函数f的B范数为0，什么样的函数f对应的B范数大等.
 4. Direct Approximation Theorem 和Inverse Approximation Theorem的具体证明吃透搞懂.
+5. NEWUOA-matlab版本每天整理和推进 （点击上一层下面的链接下载）
