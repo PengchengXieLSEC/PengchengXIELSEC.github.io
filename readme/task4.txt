@@ -1,0 +1,2 @@
+STEP1:点击桌面正下方绿圈图标软件Anaconda-Navigator->点击Environments->将Applications on设置为miniconda3->点击Home->启动Spyder5.3.0
+STEP2:先运行“未命名2.py”->再运行“SUSD-TR.py”

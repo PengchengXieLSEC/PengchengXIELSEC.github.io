@@ -1,0 +1,2 @@
+STEP1:在桌面上单击一次文件xpc，点击此时桌面左上方出现的“前往”按钮，->点击“个人”->在搜索框中输入“gjbdbs”->单击一次搜索得到的文件gjbdbs，此时正下方会出现该文件所在的路径，->双击文件gjbdbs的上层文件python3.8->打开文件site-packages-site-packages文件夹里面的yinzi_pdfo.py是我们要执行的第一个py文件->打开文件SUSD-TR，该文件中的profile.py此即我们需要执行的第二个py文件。
+STEP2:在桌面正下方点击绿圈图标ANACONDA NAVIGATOR，->点击该软件左侧菜单栏中的Home-选择Application on miniconda3 Channel->打开python代码运行环境平台spyder5.0.3->将待执行py文件yinzi_pdfo.py和profile.py拖入spyder界面，确保第243行代码为N = 10，先运行yinzi_pdfo.py，再运行profile.py（点击左上方绿色三角形图标，运行程序），得到的所有图（96个问题+1个perf图+1个data图）都会被存在文件SUSD-TR中。
