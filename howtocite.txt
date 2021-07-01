@@ -10,3 +10,16 @@
 在排版时，BibTeX会根据参考文献的格式将除了title中的第一个字符外的其他字符转换为小写，为保留原有大写字符，可以使用左右大括号将需保留的字段括起来，例如：
 
 title = "Pascal, {C}, {Java}: were they all conceived in {ETH}?"
+
+01 Jan.
+02 Feb.
+03 Mar.
+04 Apr.
+05 May
+06 Jun.
+07 Jul.
+08 Aug.
+09 Sept.
+10 Oct.
+11 Nov.
+12 Dec.
