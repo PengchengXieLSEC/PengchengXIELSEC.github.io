@@ -24,6 +24,70 @@ title = "Pascal, {C}, {Java}: were they all conceived in {ETH}?"
 11 Nov.
 12 Dec.
 -------------------------------------------------------------------------------------------------------
+
+
+
+
+
+*****************************
+                            *
+----------------------      *
+----------------------      *
+--wzy Ref abbr--------      *
+----------------------      *
+----------------------      *
+*****************************
+
+------------------------------------------
+IEEE Transactions on Mobile Computing
+IEEE Trans. Mob. Comput.
+--------------------------------------------------------
+IEEE Communications Surveys {\&} Tutorials
+IEEE Commun. Surv. Tutor.
+-----------------------------------------
+IEEE Transactions on Wireless Communications
+IEEE Trans. Wirel. Commun.
+---------------------------------------------
+IEEE/ACM Transactions on Networking
+IEEE ACM Trans. Netw. 
+----------------------------
+IEEE Journal on Selected Areas in Communications
+IEEE J. Sel. Areas Commun.
+------------------------------
+IEEE Transactions on Network and Service Management
+IEEE Trans. Netw. Service Manag.
+------------------------------
+IEEE Communications Magazine
+IEEE Commun. Mag.
+----------------------------
+Management Science
+Manage Sci
+---------------------------
+Chinese Journal of Electronics,
+Chin. J. Electron.
+
+
+
+
+
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+
+
+
+
+
+*****************************
+                            *
+----------------------      *
+----------------------      *
+--xpc Ref abbr--------      *
+----------------------      *
+----------------------      *
+*****************************
+
 Technical Report    
 Tech. Report
 ---------------------------------
@@ -48,5 +112,4 @@ IMA J NUMER ANAL
 SIAM Journal on Matrix Analysis and Applications
 
 -----------------------------------
-
 
