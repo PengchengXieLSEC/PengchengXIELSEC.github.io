@@ -76,6 +76,7 @@ Chin. J. Electron.
 **********************************************************
 
 
+如下
 
 
 
@@ -112,4 +113,59 @@ IMA J NUMER ANAL
 SIAM Journal on Matrix Analysis and Applications
 
 -----------------------------------
+Structural and Multidisciplinary Optimization
 
+---------------------------------
+Theory of Cryptography
+
+---------------------------------
+Journal of Optimization Theory and
+Applications
+
+----------------------------------
+SIAM Review
+
+--------------------------------
+Operations Research
+
+-----------------------------
+SIAM Journal on Numerical Analysis
+
+-------------------------------
+ Computational Optimization and Applications
+
+--------------------------------
+Optimization and Engineering
+
+------------------------------
+Journal of Computational Chemistry
+
+-----------------------------
+The Computer Journal
+
+--------------------------
+Bell System Technical Journal
+
+----------------------------
+Mathematical Programming
+
+----------------------------
+Advances in optimization and numerical analysis
+
+----------------------------
+Numerical Linear Algebra and Optimization
+
+----------------------------
+Technometrics
+
+------------------------------
+Mathematics of Computation
+
+-------------------------------
+Studies in Computational Intelligence
+
+-----------------------------------
+Mathematics and its applications
+
+------------------------------------
+IMA Journal of Applied Mathematics
