@@ -93,79 +93,76 @@ Technical Report
 Tech. Report
 ---------------------------------
 SIAM Journal on Optimization
-
+SIAM J. Optim.
 -------------------------------
 Advanced Modeling and Optimization
 Adv. Model. Optim.
 ------------------------------
 Optimization Letters
-
+Optim. Lett.
 -------------------------------
 Optimization and Engineering
-
+Optim. Eng.
 -------------------------------
-
 Journal of the ACM
+J. ACM
 ---------------------------------
-Ima Journal of Numerical Analysis
-IMA J NUMER ANAL
+IMA Journal of Numerical Analysis
+IMA J. Numer. Anal.
 --------------------------------
 SIAM Journal on Matrix Analysis and Applications
-
+SIAM J. Matrix Anal. Appl.
 -----------------------------------
 Structural and Multidisciplinary Optimization
-
+Struct Multidiscipl Optim
+Struct. Multidiscipl. Optim.
 ---------------------------------
 Theory of Cryptography
-
 ---------------------------------
 Journal of Optimization Theory and
 Applications
-
+J. Optim. Theory Appl.
 ----------------------------------
 SIAM Review
-
+SIAM Rev.
 --------------------------------
 Operations Research
-
+Oper. Res.  
 -----------------------------
 SIAM Journal on Numerical Analysis
-
+SIAM J. Math. Anal.
 -------------------------------
  Computational Optimization and Applications
-
+ Comput. Optim. Appl. 
 --------------------------------
 Optimization and Engineering
-
+Optim. Eng. 
 ------------------------------
 Journal of Computational Chemistry
-
+J. Comput. Chem. 
 -----------------------------
 The Computer Journal
-
 --------------------------
 Bell System Technical Journal
-
+Bell Syst. Tech. J. 
 ----------------------------
 Mathematical Programming
-
+Math. Program.  
 ----------------------------
 Advances in optimization and numerical analysis
-
+Adv. Comput. Math. 
 ----------------------------
 Numerical Linear Algebra and Optimization
-
+Numer. Linear Algebra Appl.
 ----------------------------
 Technometrics
-
 ------------------------------
 Mathematics of Computation
-
+Math. Comput.        
 -------------------------------
 Studies in Computational Intelligence
-
 -----------------------------------
 Mathematics and its applications
-
 ------------------------------------
 IMA Journal of Applied Mathematics
+IMA J. Appl. Math.
