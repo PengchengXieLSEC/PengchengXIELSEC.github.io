@@ -1,0 +1,113 @@
+
+[1] N. Andrei, An unconstrained optimization test functions collection, Advanced Modeling and Optimization, 10 (2008), pp. 147–161.
+[2] T. M. Antonsen Jr and B. Levush, Christine: A multifrequency parametric simulation code for traveling wave tube amplifiers., tech. report, Naval Research Lab Washington DC Vac- uum Electionics Branch, 1997.
+[3] C. Audet, P. Coˆte ́, C. Poissant, and C. Tribes, Monotonic grey box direct search optimiza- tion, Optimization Letters, 14 (2020), pp. 3–18.
+[4] C. Audet and J. E. Dennis Jr, A pattern search filter method for nonlinear programming without derivatives, SIAM Journal on Optimization, 14 (2004), pp. 980–1010.
+[5] C. Audet and W. Hare, Derivative-free and blackbox optimization, Springer, 2017.
+[6] C. Audet, S. Le Digabel, and C. Tribes, NOMAD user guide, tech. report, Les Cahiers du
+GERAD, 2009.
+[7] C. Audet and D. Orban, Finding optimal algorithmic parameters using derivative-free opti-
+mization, SIAM Journal on Optimization, 17 (2006), pp. 642–664.
+[8] B. Barak, K. Chaudhuri, C. Dwork, S. Kale, F. McSherry, and K. Talwar, Privacy, accuracy, and consistency too: a holistic solution to contingency table release, in Proceed- ings of the twenty-sixth ACM SIGMOD-SIGACT-SIGART symposium on Principles of
+database systems, 2007, pp. 273–282.
+[9] M. Bezerra, R. Santelli, E. Oliveira, L. Villar, and L. Escaleira, Response surface
+methodology (rsm) as a tool for optimization in analytical chemistry, Talanta, 76 (2008),
+pp. 965–77.
+[10] M. Bjo ̈rkman and K. Holmstro ̈m, Global optimization of costly nonconvex functions using
+radial basis functions, Optimization and Engineering, 1 (2000), pp. 373–397.
+[11] A. Blum, C. Dwork, F. McSherry, and K. Nissim, Practical privacy: the sulq framework, in Proceedings of the twenty-fourth ACM SIGMOD-SIGACT-SIGART symposium on Prin-
+ciples of database systems, 2005, pp. 128–138.
+[12] A. Blum, K. Ligett, and A. Roth, A learning theory approach to noninteractive database
+privacy, Journal of the ACM, 60 (2013), pp. 1–25.
+[13] A. Booker, P. Frank, J. Dennis, Jr, D. Moore, and D. Serafini, Managing sur-
+rogate objectives to optimize a helicopter rotor design-further experiments, in 7th AIAA/USAF/NASA/ISSMO Symposium on Multidisciplinary Analysis and Optimization, 1998, p. 4717.
+[14] A. J. Booker, J. Dennis, P. D. Frank, D. B. Serafini, and V. Torczon, Optimization using surrogate objectives on a helicopter test example, in Computational Methods for Optimal Design and Control, Springer, 1998, pp. 49–58.
+[15] C. Cartis, N. I. M. Gould, and P. L. Toint, On the oracle complexity of first-order and derivative-free algorithms for smooth nonconvex minimization, SIAM Journal on Opti- mization, 22 (2012), pp. 66–86.
+[16] Z. Chuanxin, S. Yi, and W. Degang, Federated learning with gaussian differential privacy, in Proceedings of the 2020 2nd International Conference on Robotics, Intelligent Control and Artificial Intelligence, 2020, pp. 296–301.
+[17] A. Conn, N. Gould, M. Lescrenier, and P. L. Toint, Performance of a multifrontal scheme for partially separable optimization, in Advances in Optimization and Numerical Analysis, Springer, 1994, pp. 79–96.
+[18] A. Conn, K. Scheinberg, and L. Vicente, Global convergence of general derivative-free trust- region algorithms to first- and second-order critical points, SIAM Journal on Optimization, 20 (2009), pp. 387–415.
+[19] A. Conn, K. Scheinberg, and N. Vicente, Geometry of sample sets in derivative free opti- mization. part ii: polynomial regression and underdetermined interpolation, IMA Journal of Numerical Analysis, 28 (2008), pp. 721–748.
+[20] A. R. Conn, K. Scheinberg, and L. N. Vicente, Introduction to derivative-free optimization, vol. 8, Society for Industrial and Applied Mathematics, 2009.
+[21] I. Dinur and K. Nissim, Revealing information while preserving privacy, Proceedings of the Twenty-second ACM SIGMOD-SIGACT-SIGART Symposium on Principles of Database Systems, (2003), pp. 202–210.
+[22]
+R. Duvigneau and M. Visonneau, Hydrodynamic design using a derivative-free method, Struc- tural and Multidisciplinary Optimization, 28 (2004), pp. 195–205.
+[23] C. Dwork, F. McSherry, K. Nissim, and A. Smith, Calibrating noise to sensitivity in private data analysis, in Theory of Cryptography, S. Halevi and T. Rabin, eds., Berlin, Heidelberg, 2006, Springer Berlin Heidelberg, pp. 265–284.
+[24] C. Dwork, F. McSherry, K. Nissim, and A. Smith, Calibrating noise to sensitivity in private data analysis, Journal of Privacy and Confidentiality, 7 (2017), pp. 17–51.
+[25] C. Dwork and K. Nissim, Privacy-preserving datamining on vertically partitioned databases, in Annual International Cryptology Conference, Springer, 2004, pp. 528–544.
+[26] U. Erlingsson, V. Pihur, and A. Korolova, RAPPOR: Randomized aggregatable privacy- preserving ordinal response, in Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications Security, Association for Computing Machinery, 2014, pp. 1054–1067.
+[27] S. Fletcher and M. Z. Islam, Differentially private random decision forests using smooth sensitivity, Expert Systems with Applications, 78 (2017), pp. 16–31.
+[28] P. E. Gill, W. Murray, M. A. Saunders, and M. H. Wright, Computing forward-difference intervals for numerical optimization, SIAM Journal on Scientific and Statistical Comput- ing, 4 (1983), pp. 310–321.
+[29] N. Gould, D. Orban, and P. L. Toint, General CUTEr documentation, 2001.
+[30] L. Grippo, F. Lampariello, and S. Lucidi, Global convergence and stabilization of uncon- strained minimization methods without derivatives, Journal of Optimization Theory and
+Applications, 56 (1988), pp. 385–406.
+[31] M. B. Hawes, Implementing differential privacy: seven lessons from the 2020 united states
+census, Harvard Data Science Review, 2 (2020).
+[32] N. J. Higham, Optimization by direct search in matrix computations, SIAM Journal on Matrix
+Analysis and Applications, 14 (1993), pp. 317–333.
+[33] N. J. Higham, Accuracy and stability of numerical algorithms, SIAM, 2002.
+[34] S. P. Kasiviswanathan, H. K. Lee, K. Nissim, S. Raskhodnikova, and A. Smith, What can
+we learn privately?, SIAM Journal on Computing, 40 (2011), pp. 793–826.
+[35] C. T. Kelley, Detection and remediation of stagnation in the Nelder–Mead algorithm using a sufficient decrease condition, SIAM Journal on Optimization, 10 (1999), pp. 43–55.
+[36] C. T. Kelley, Implicit Filtering, Society for Industrial and Applied Mathematics, 2011.
+[37] T. Kolda, R. Lewis, and V. Torczon, Optimization by direct search: New perspectives on
+some classical and modern methods, SIAM Review, 45 (2003), pp. 385–482.
+[38] M. Kusner, J. Gardner, R. Garnett, and K. Weinberger, Differentially private bayesian optimization, in International conference on machine learning, PMLR, 2015, pp. 918–927. [39] T. Levina, Y. Levin, J. McGill, and M. Nediak, Dynamic pricing with online learning and strategic consumers: an application of the aggregating algorithm, Operations Research, 57
+(2009), pp. 327–341.
+[40] B. Levush, The design and manufacture of vacuum electronic amplifiers: Progress and chal-
+lenges, in 2019 International Vacuum Electronics Conference (IVEC), IEEE, 2019, pp. 1–5. [41] G. Li, The secant/finite difference algorithm for solving sparse nonlinear systems of equations,
+SIAM Journal on Numerical Analysis, 25 (1988), pp. 1181–1196.
+[42] Y.-J. Li and D.-H. Li, Truncated regularized newton method for convex minimizations, Com-
+putational Optimization and Applications, 43 (2009), pp. 119–131.
+[43] J. Liu, Sharing the personal health records with group-oriented attribute-based encryption
+schemes, vol. 23, Fujian Normal University, 2016.
+[44] L. Lukˇsan, C. Matonoha, and J. Vlcek, Modified cute problems for sparse unconstrained
+optimization, tech. report, 2010.
+[45] A. L. Marsden, Aerodynamic noise control by optimal shape design, Stanford University, 2005. [46] A. L. Marsden, M. Wang, J. E. Dennis, and P. Moin, Optimal aeroacoustic shape de-
+[47]
+sign using the surrogate management framework, Optimization and Engineering, 5 (2004),
+pp. 235–262.
+F. McSherry and K. Talwar, Mechanism design via differential privacy, in 48th Annual IEEE
+Symposium on Foundations of Computer Science (FOCS’07), IEEE, 2007, pp. 94–103. [48] J. C. Meza and M. L. Martinez, Direct search methods for the molecular conformation
+problem, Journal of Computational Chemistry, 15 (1994), pp. 627–632.
+[49] J. A. Nelder and R. Mead, A simplex method for function minimization, The Computer
+Journal, 7 (1965), pp. 308–313.
+[50] K. Nissim, S. Raskhodnikova, and A. Smith, Smooth sensitivity and sampling in private
+data analysis, in Proceedings of the thirty-ninth annual ACM symposium on Theory of
+computing, 2007, pp. 75–84.
+[51] M. Pelikan, D. E. Goldberg, E. Cantu ́-Paz, et al., Boa: The bayesian optimization algo-
+rithm, in Proceedings of the genetic and evolutionary computation conference GECCO-99,
+vol. 1, Citeseer, 1999, pp. 525–532.
+[52] M. Powell, Beyond symmetric broyden for updating quadratic models in minimization without
+derivatives, Mathematical Programming, 138 (2013), pp. 475–500.
+[53] M. J. Powell, The bobyqa algorithm for bound constrained optimization without derivatives, Cambridge NA Report NA2009/06, University of Cambridge, Cambridge, (2009), pp. 26–
+46.
+[54] M. J. D. Powell, A direct search optimization method that models the objective and constraint
+functions by linear interpolation, in Advances in Optimization and Numerical Analysis,
+Springer, 1994, pp. 51–67.
+[55] M. J. D. Powell, Uobyqa: unconstrained optimization by quadratic approximation. math.
+program. 92, 555-582, Mathematical Programming, Series B, 92 (2002), pp. 555–582.
+[56] M. J. D. Powell, On trust region methods for unconstrained minimization without derivatives,
+Mathematical Programming, 97 (2003), pp. 605–623.
+[57] M. J. D. Powell, Least frobenius norm updating of quadratic models that satisfy interpolation
+conditions, Mathematical Programming, 100 (2004), pp. 183–215.
+[58] M. J. D. Powell, On updating the inverse of a kkt matrix, Numerical Linear Algebra and
+Optimization, ed. Ya-xiang Yuan, Science Press (Beijing), (2004), pp. 56–78.
+[59] M. J. D. Powell, The newuoa software for unconstrained optimization without derivatives, in
+Large-scale nonlinear optimization, Springer, 2006, pp. 255–297.
+[60] D. B. Serafini, A framework for managing models in nonlinear optimization of computation-
+ally expensive functions, Rice University, 1999.
+[61] W. Spendley, G. Hext, and F. Himsworth, Sequential application of simplex designs in
+optimization and evolutionary operation, Technometrics, 4 (1962), pp. 441–461.
+[62] J. Tang, A. Korolova, X. Bai, X. Wang, and X. Wang, Privacy loss in apple’s implemen-
+tation of differential privacy on macos 10.12, arXiv preprint arXiv:1709.02753, (2017). [63] P. L. Toint, Some numerical results using a sparse matrix updating formula in unconstrained
+optimization, Mathematics of Computation, 32 (1978), pp. 839–851.
+[64] V. Torczon, On the convergence of the multidirectional search algorithm, SIAM Journal on Optimization, 1 (1991), pp. 123–145.
+[65] V. Torra and G. Navarro-Arribas, Data privacy: A survey of results, Studies in Compu- tational Intelligence, 567 (2015), pp. 27–37.
+[66] P. Tseng, Fortified-descent simplicial search method: A general approach, SIAM Journal on Optimization, 10 (1999), pp. 269–288.
+[67] P. van Laarhoven and E. Aarts, Simulated annealing: theory and applications, Mathematics and its Applications, 37 (1987).
+[68] A. Vlasov, T. Antonsen, D. Chernin, S. Cooke, B. Levush, and K. Nguyen, Tesla: simulation code for multiple beam klystrons, in 4th IEEE International Conference on Vacuum Electronics, 2003, 2003, pp. 12–13.
+[69] Y. Wang, M. Hale, M. Egerstedt, and G. E. Dullerud, Differentially private objective functions in distributed cloud-based optimization, in 2016 IEEE 55th Conference on Deci- sion and Control (CDC), IEEE, 2016, pp. 3688–3694.
+[70] J. D. Wilson, E. G. Wintucky, K. R. Vaden, D. A. Force, I. L. Krainsky, R. N. Simons, N. R. Robbins, W. L. Menninger, D. R. Dibb, and D. E. Lewis, Advances in space traveling-wave tubes for nasa missions, Proceedings of the IEEE, 95 (2007), pp. 1958– 1967.
+[71] D. Winfield, Function and functional optimization by interpolation in data tables, PhD thesis, Harvard University, 1969.
+[72] D. Winfield, Function minimization by interpolation in a data table, IMA Journal of Applied Mathematics, 12 (1973).
+[73] Z. Zhang, The research on derivative-free optimization methods, PhD thesis, Graduate School of the Chinese Academy of Sciences, University of Chinese Academy of Sciences, 2012.
