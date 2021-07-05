@@ -38,11 +38,11 @@
 
 == Read me
 
-[readme/task1.txt task1:NEWUOA-P]
+1.NEWUOA-P
 
-[readme/task2.txt task2:SUSD-TR]
+[readme/task1.txt NEWUOA-P]
 
-[readme/task4.txt task4:缺]
+2.SUSD-TR
 
 [readme/ReadMe_5dim-96problem.txt ReadMe_5dim-96problem]
 
@@ -55,5 +55,20 @@
 [readme/ReadMe_nb_states=4,nb_actions=3.txt ReadMe_nb_states=4,nb_actions=3]
 
 [readme/ReadMe_nb_states=4,nb_actions=4.txt ReadMe_nb_states=4,nb_actions=4]
+
+3. NEWUOA-soft+hard
+
+[readme/soft.txt soft]
+
+[readme/hard.txt hard]
+
+4. NEWUOA-Python+Matlab
+
+[readme/python.txt NEWUOA-python]
+
+[readme/matlab.txt NEWUOA-matlab]
+
+
+
 
 
