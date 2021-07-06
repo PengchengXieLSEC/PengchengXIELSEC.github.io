@@ -3,7 +3,16 @@
 == 1.NEWUOA-P：求解带噪声的问题
 
 [readme/task1.txt NEWUOA-P]
+
+Task 1-1：
+
 缺：6张表的readme，加在task1.txt的最后.
+
+Task 1-2：
+
+原本：f是94个问题，g是简单的约束（罚函数）
+
+想要：g是94个问题，f是简单的约束（罚函数）
 
 
 == 2.SUSD-TR
