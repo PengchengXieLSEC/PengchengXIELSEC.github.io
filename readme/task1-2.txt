@@ -1,3 +1,5 @@
+在运行matlab时先将profile的三个“画布”运行一下引一下，3*2行代码
+
 图1-3:
 STEP1（获取NEWUOA-P求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1test->打开文件夹实验1-6->打开文件夹20dim-nojieduan-1-100/k->打开文件l.F90->将第1931行变为nvar=20    ->将1939行变为DO IP=1,94   ->将2018行变为CALL Laplace(100.0D0/K,Epsilonk)     ->保存该文件并关闭->把文件夹20dim-nojieduan-1-100/k里除5-figure文件夹，6-figuer文件夹，l.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim-nojieduan-1-100/k拖入终端，按下回车键->在命令行输入：gfortran l.F90 -o l，按下回车键->再在命令行输入：./l，按下回车键，运行程序->待程序运行完成后，文件夹20dim-nojieduan-1-100/k里出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-P线的对应数据。->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->将得到的结果文件history_F.csv和solution.csv拖到文件夹newuoas-soft中并覆盖掉现有的文件。
 STEP2（获取NEWUOA-N求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1test->打开文件夹newuoa-n->打开文件夹20dim->打开文件n.F90->将第1689行变为nvar=20    ->将1697行变为DO IP=1,94   ->保存该文件并关闭->把文件夹20dim里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹20dim出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-N线的对应数据。将结果文件重新命名为history_F-20.csv和solution-20.csv。->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->将得到的结果文件history_F-20.csv和solution-20.csv拖到文件夹newuoas-soft中并覆盖掉现有的文件。
