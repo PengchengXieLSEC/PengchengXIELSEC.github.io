@@ -5,46 +5,28 @@
 \n
 
  	
-Task-A
+Task-A: +5个文件夹, 标黄的要有+
 
 ~~~
 {4}{table}{TABLENAME}
   | 所有图（如[readme/task1-2.txt -P]所示） |   Read_me.txt  |  新Read_me.txt （两种噪声合并后） | F90中的中文注释 ||
-Task 1-1 | Y | [readme/task1-2.txt Y]  | +N+ | +N+  || 
-Task 1-2 | N  | N  | +N+ | +N+  ||
-Task 1-3 | N  | N  | +N+ | +N+   ||
-Task 1-4: Task 1-2 | +N+  | N  | +N+ | +N+   ||
-Task 1-4: Task 1-3 | +N+  | N  |  +N+ | +N+ 
+Task 1-1 | Y | [readme/task1-2.txt Y]  | N | +N+  || 
+Task 1-2 | N  | N  | +N+ | N  ||
+Task 1-3 | N  | N  | +N+ | N   ||
+Task 1-4: Task 1-2 | +N+  | N  | +N+ | N   ||
+Task 1-4: Task 1-3 | +N+  | N  |  +N+ | N 
 ~~~
 
 注意：加F90中的中文注释时将F90文件各+新复制+一份出来 (不要影响到原来没有加中文注释的F90文件)，命名为：
 
 +Task1-1-Chin-Remark.F90+
 
-+Task1-2-Chin-Remark.F90+
 
-+Task1-3-Chin-Remark.F90+
-
-
-+Task1-4-2-Chin-Remark.F90+
-
-
-+Task1-4-3-Chin-Remark.F90+
-
-
-\n
-
-Task-B
+注：
 
 - 完善整理Task 1-2、Task 1-3，其中Task 1-3如何+抽选f和g+仔细想想，+在matlab中比较算法时做到同步+.
 
-- 在Task 1-1、Task 1-2、Task 1-3、Task 1-4的+NEWUOA-P.F90代码+中关键的改动之处加上+详细的中文注释+：务必在+新复制出来的文件+里面搞，保留原文件的干净.
-
 - 写好Task 1-2和Task 1-3的+read_me.txt+，要至少说明+如何选择+不同的测试函数组合.
-
-\n
-
-注：
 
 - Task 1-4: f变成f\+g, g变成0, g_k变成0\+噪声
 
