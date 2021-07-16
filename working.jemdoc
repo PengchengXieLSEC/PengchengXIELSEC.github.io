@@ -7,6 +7,8 @@
  	
 Task-A: +5个文件夹, 标黄的要有+
 
+另外附加一个read_me_special.txt: 描述如何调整matlab中的放大镜那张图
+
 ~~~
 {4}{table}{TABLENAME}
   | 所有图（如[readme/task1-2.txt -P]所示） |   Read_me.txt  |  新Read_me.txt （两种噪声合并后） | F90中的中文注释 ||
