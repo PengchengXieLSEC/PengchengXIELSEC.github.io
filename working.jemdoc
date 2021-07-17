@@ -7,7 +7,7 @@
 
 需要复制出来一份新的task 1-1，另加一个非常简单的task 1-5: 
 
-和Task 1-1完全一致，唯一的区别是：NEWUOA那条线不再使用matlab计算，而是使用fortran计算，也就是在Task1-5的文件夹里多加一条用NEWUOA求解带有和NEWUOA-P求解问题一样的噪声的线，也和NEWUOA-P和NEWUOA-N一样，从Fortran运行后的csv结果导入history_f和solution.
+和Task 1-1完全一致，唯一的区别是：NEWUOA那条线不再使用matlab计算，而是使用fortran计算，也就是在Task1-5的文件夹里多加一条用NEWUOA求解带有和NEWUOA-P求解问题一样的噪声的线，也和NEWUOA-P和NEWUOA-N一样，从Fortran运行后的csv结果导入history_f和solution. +仍然是6条线+
 
 这是因为后面NEWUOA的matlab的接口就用不了了，这样就可以完全脱离mex接口了.
  	
