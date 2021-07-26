@@ -1,0 +1,494 @@
+图1-3:
+STEP1（获取NEWUOA-P求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1test->打开文件夹实验1-6->打开文件夹20dim-nojieduan-1-100/k->打开文件l.F90->将第1931行变为nvar=20    ->将1939行变为DO IP=1,94   ->将2018行变为CALL Laplace(100.0D0/K,Epsilonk)     ->保存该文件并关闭->把文件夹20dim-nojieduan-1-100/k里除5-figure文件夹，6-figuer文件夹，l.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim-nojieduan-1-100/k拖入终端，按下回车键->在命令行输入：gfortran l.F90 -o l，按下回车键->再在命令行输入：./l，按下回车键，运行程序->待程序运行完成后，文件夹20dim-nojieduan-1-100/k里出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-P线的对应数据。->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->将得到的结果文件history_F.csv和solution.csv拖到文件夹newuoas-soft中并覆盖掉现有的文件。
+STEP2（获取NEWUOA-N求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1test->打开文件夹newuoa-n->打开文件夹20dim->打开文件n.F90->将第1689行变为nvar=20    ->将1697行变为DO IP=1,94   ->保存该文件并关闭->把文件夹20dim里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹20dim出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-N线的对应数据。将结果文件重新命名为history_F-20.csv和solution-20.csv。->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->将得到的结果文件history_F-20.csv和solution-20.csv拖到文件夹newuoas-soft中并覆盖掉现有的文件。
+STEP3（获取其他算法求解94个问题的数据并画图）：打开MATLAB->将MATLAB运行路径设置为/Users/karlmarx/Desktop/xpc/newuoas-soft->打开testalg.m->将286行变为f=f+Eps(100/length(fval_history));->将288行变为f=f+Eps(100/(2*n));->将282-283行注释掉->将290-297行注释掉->打开main.m->将第6行变为perfdata(20, 'plain');->打开perfdata.m->将122行-229行注释掉->将258-272行取消注释->打开文件solvers，将其内容变为
+newuoa
+newuoa
+fminunc_4test
+fminsearch_4test
+nms_4test
+nms_4test
+->运行main.m，->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->打开文件夹results->打开最新生成的文件夹，所需的图就在这个文件夹里面。
+
+
+图4-6，7-9：
+STEP1（获取NEWUOA-P求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1test->打开文件夹实验1-6->打开文件夹20dim-nojieduan-100-100/k->打开文件l.F90->将第1931行变为nvar=20    ->将1939行变为DO IP=1,94   ->将2018行变为CALL Laplace(100.0D0/K,Epsilonk)
+->将2021行变为EPS(K)=Epsilonk*100.0D0     ->保存该文件并关闭->把文件夹20dim-nojieduan-1-100/k里除5-figure文件夹，6-figuer文件夹，l.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim-nojieduan-1-100/k拖入终端，按下回车键->在命令行输入：gfortran l.F90 -o l，按下回车键->再在命令行输入：./l，按下回车键，运行程序->待程序运行完成后，文件夹20dim-nojieduan-1-100/k里出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-P线的对应数据。->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->将得到的结果文件history_F.csv和solution.csv拖到文件夹newuoas-soft中并覆盖掉现有的文件。
+STEP2（获取NEWUOA-N求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1test->打开文件夹newuoa-n->打开文件夹20dim->打开文件n.F90->将第1689行变为nvar=20    ->将1697行变为DO IP=1,94   ->保存该文件并关闭->把文件夹20dim里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹20dim出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-N线的对应数据。将结果文件重新命名为history_F-20.csv和solution-20.csv。->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->将得到的结果文件history_F-20.csv和solution-20.csv拖到文件夹newuoas-soft中并覆盖掉现有的文件。
+STEP3（获取其他算法求解94个问题的数据并画图）：打开MATLAB->将MATLAB运行路径设置为/Users/karlmarx/Desktop/xpc/newuoas-soft->打开testalg.m->将286行变为f=f+Eps(100/length(fval_history))*100;->将288行变为f=f+Eps(100/(2*n))*100;->将282-283行注释掉->将290-297行注释掉->打开main.m->将第6行变为perfdata(20, 'plain');->打开perfdata.m->将122行-229行注释掉->将258-272行取消注释->打开文件solvers，将其内容变为
+newuoa
+newuoa
+fminunc_4test
+fminsearch_4test
+nms_4test
+nms_4test
+->运行main.m，->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->打开文件夹results->打开最新生成的文件夹，所需的图就在这个文件夹里面。
+
+
+图10-12,13-15,16-18：
+STEP1（获取NEWUOA-P求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1test->打开文件夹实验7-10->打开文件夹20dim-nojieduan-100-100/k-1/k-p=0.5->打开文件m.F90->将第1983行变为nvar=20    ->将1991行变为DO IP=1,94   ->将2058-2085行变为
+     IF (K .GT. FLAG)THEN
+         CALL Laplace(100.0D0/K,Epsilonk)
+         EPS1(K)=Epsilonk*100.0D0
+
+         call random_seed()
+         call random_number(Epsilonk)
+         Epsilonk=(Epsilonk-0.5D0)*2*(1.0D0/K)
+         EPS2(K)=Epsilonk
+
+         call random_seed()
+         call random_number(PP)
+         RAND(K)=PP
+
+         FLAG=K
+      END IF
+
+      IF (RAND(K) .GT. 0.5)THEN
+         G=100.0D0*G+EPS1(K)
+      ELSE
+      IF (K .GT. 2*N+1)THEN
+         FF=0.0D0
+         CALL evalfun(PROBLEM,N,X,FF,INFO)
+         Epsilonk=EPS2(K)
+         G=100.0D0*G+EPS2(K)*(100.0D0*G+FF)
+      ELSE
+      G=100.0D0*G+EPS1(K)
+      END IF
+      END IF 
+->保存该文件并关闭->把文件夹20dim-nojieduan-100-100/k-1/k-p=0.5里除5-figure文件夹，6-figuer文件夹，m.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim-nojieduan-100-100/k-1/k-p=0.5拖入终端，按下回车键->在命令行输入：gfortran m.F90 -o m，按下回车键->再在命令行输入：./m，按下回车键，运行程序->待程序运行完成后，文件夹20dim-nojieduan-100-100/k-1/k-p=0.5里出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-P线的对应数据。->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->将得到的结果文件history_F.csv和solution.csv拖到文件夹newuoas-soft中并覆盖掉现有的文件。
+STEP2（获取NEWUOA-N求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1test->打开文件夹newuoa-n->打开文件夹20dim->打开文件n.F90->将第1689行变为nvar=20    ->将1697行变为DO IP=1,94   ->保存该文件并关闭->把文件夹20dim里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹20dim出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-N线的对应数据。将结果文件重新命名为history_F-20.csv和solution-20.csv。->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->将得到的结果文件history_F-20.csv和solution-20.csv拖到文件夹newuoas-soft中并覆盖掉现有的文件。
+STEP3（获取其他算法求解94个问题的数据并画图）：打开MATLAB->将MATLAB运行路径设置为/Users/karlmarx/Desktop/xpc/newuoas-soft->打开testalg.m->将286行变为f=f+Eps(100/length(fval_history))*100;->将288行变为f=f+Eps(100/(2*n))*100;->将282-283行取消注释->将290-297行取消注释->将293行变为f=f+f*(rand()-0.5)*2*(1/length(fval_history));->将295变为        f=f+Eps(100/(2*n))*100;->打开main.m->将第6行变为perfdata(20, 'plain');->打开perfdata.m->将122行-229行注释掉->将258-272行取消注释->打开文件solvers，将其内容变为
+newuoa
+newuoa
+fminunc_4test
+fminsearch_4test
+nms_4test
+nms_4test
+->运行main.m，->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->打开文件夹results->打开最新生成的文件夹，所需的图就在这个文件夹里面。
+
+
+图19:
+STEP1（获取NEWUOA-P求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1test->打开文件夹实验7-10->打开文件夹20dim-nojieduan-100-100/k-1/k-p=0.5->打开文件m.F90->将第1983行变为nvar=20    ->将1991行变为DO IP=1,94   ->将2058-2085行变为
+     IF (K .GT. FLAG)THEN
+         CALL Laplace(100.0D0/K,Epsilonk)
+         EPS1(K)=Epsilonk*100.0D0
+
+         call random_seed()
+         call random_number(Epsilonk)
+         Epsilonk=(Epsilonk-0.5D0)*2*(1.0D0/K)
+         EPS2(K)=Epsilonk
+
+         call random_seed()
+         call random_number(PP)
+         RAND(K)=PP
+
+         FLAG=K
+      END IF
+
+      IF (RAND(K) .GT. 0.5)THEN
+         G=100.0D0*G+EPS1(K)
+      ELSE
+      IF (K .GT. 2*N+1)THEN
+         FF=0.0D0
+         CALL evalfun(PROBLEM,N,X,FF,INFO)
+         Epsilonk=EPS2(K)
+         G=100.0D0*G+EPS2(K)*(100.0D0*G+FF)
+      ELSE
+      G=100.0D0*G+EPS1(K)
+      END IF
+      END IF 
+->保存该文件并关闭->把文件夹20dim-nojieduan-100-100/k-1/k-p=0.5里除5-figure文件夹，6-figuer文件夹，m.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim-nojieduan-100-100/k-1/k-p=0.5拖入终端，按下回车键->在命令行输入：gfortran m.F90 -o m，按下回车键->再在命令行输入：./m，按下回车键，运行程序->待程序运行完成后，文件夹20dim-nojieduan-100-100/k-1/k-p=0.5里出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-P线的对应数据。->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->将得到的结果文件history_F.csv和solution.csv拖到文件夹newuoas-soft中并覆盖掉现有的文件。
+STEP2（获取NEWUOA-N求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1test->打开文件夹newuoa-n->打开文件夹20dim->打开文件n.F90->将第1689行变为nvar=20    ->将1697行变为DO IP=1,94   ->保存该文件并关闭->把文件夹20dim里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹20dim出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-N线的对应数据。将结果文件重新命名为history_F-20.csv和solution-20.csv。->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->将得到的结果文件history_F-20.csv和solution-20.csv拖到文件夹newuoas-soft中并覆盖掉现有的文件。
+STEP3（获取其他算法求解94个问题的数据并画图）：打开MATLAB->将MATLAB运行路径设置为/Users/karlmarx/Desktop/xpc/newuoas-soft->打开testalg.m->将286行变为f=f+Eps(100/length(fval_history))*100;->将288行变为f=f+Eps(100/(2*n))*100;->将282-283行取消注释->将290-297行取消注释->将293行变为f=f+f*(rand()-0.5)*2*(1/length(fval_history));->将295变为        f=f+Eps(100/(2*n))*100;->打开main.m->将第6行变为perfdata(20, 'plain');->打开perfdata.m->将122行-229行取消注释->将258-272行注释掉->打开文件solvers，将其内容变为
+newuoa
+newuoa
+fminunc_4test
+fminsearch_4test
+nms_4test
+nms_4test
+->运行main.m，->在桌面上打开文件夹xpc->打开文件夹newuoas-soft->打开文件夹history_F.eps->这就是我们需要的图。
+
+
+以下的表1-表6时利用求解算法求解目标函数f
+
+
+表6:
+打开文件夹xpc->打开文件夹5.1test->打开文件夹未命名文件夹->打开文件夹实验19-21的副本->打开文件夹10dim-nojieduan-1-1/k-(10,10)->打开文件l.F90->将第1931行变为nvar=10    ->将1939行变为DO IP=1,1   ->将1943行变为 X(I)=10.0D0   ->将1946行-1983行变为：
+G=0.0D0
+      DO I=1,SIZE(X)
+          G=G+(X(I))**2
+      END DO
+
+      F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+
+      
+! F=0.0D0
+!      DO I=1,SIZE(X)
+!          F=F+(X(I))**2
+!      END DO
+
+
+
+          WRITE(1,*)NF,F+G,X(:)
+   ->将1996行-1999行变为：
+   F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+->将2017行-2020行变为：
+      G=0.0D0
+      DO I=1,SIZE(X)
+          G=G+(X(I))**2
+      END DO
+     ->将2026行变为CALL Laplace(1.0D0/K,Epsilonk)     ->将2028行变为EPS(K)=Epsilonk*1.0D0    ->保存该文件并关闭->把文件夹10dim-nojieduan-1-1/k-(10,10)里除l.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹10dim-nojieduan-1-1/k-(10,10)拖入终端，按下回车键->在命令行输入：gfortran l.F90 -o l，按下回车键->再在命令行输入：./l，按下回车键，运行程序->待程序运行完成后，文件夹20dim-nojieduan-1-100/k里出现了结果文件history_F.csv和solution.csv，此为表格中NEWUOA-P求解该问题的对应数据。
+
+回到上层文件夹5.1test->打开文件夹newuoa-n->打开文件夹10dim-single->打开n.F90
+将第1689行变为nvar=10    ->将1697行变为DO IP=1,1   ->将1701行变为 X(I)=10.0D0   ->将1719行-1730行变为：
+   G=0.0D0
+      DO I=1,N
+          G=G+(X(I))**2
+      END DO
+
+      F=0.0D0
+      DO I=1,N
+          F=F+(X(I))**4
+      END DO
+   ->将1747行-1757行变为：
+   F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+     ->保存该文件并关闭->把文件夹10dim-single里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹10dim-single拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹10dim-single里出现了结果文件history_F.csv和solution.csv，此为表格中NEWUOA-P求解该问题的对应数据。
+
+
+->在桌面上打开matlab，将matlab的默认路径改为/Users/karlmarx/Desktop/xpc/5.1-5.5/newuoas-soft的副本，在该目录下打开main.m，将第六行改为：perfdata(10, 'plain'); ->再打开testalg.m，将第278-280行改为:
+f=0;
+f=sum(x.^4)+sum(x.^2);
+
+将第287行注释掉，再将294行-301行注释掉，将第290行改为：
+        f=f+Eps(1/length(fval_history))*1;
+将第292行改为：
+        f=f+Eps(1/(2*n))*1;
+将第157行改为：
+            xr=ones(n,1)*10;
+打开matlab窗口右侧文件列表中的problrms，将除了“arglina”之外的所有问题都删除。
+运行main.m，得到newuoa、fminunc_4test、fminsearch_4test、nms_4test四个算法求解该问题的的结果位于F_data.csv、NF_data.csv和X_data.csv中
+      
+
+表7:
+打开文件夹xpc->打开文件夹5.1test->打开文件夹未命名文件夹->打开文件夹实验19-21的副本->打开文件夹10dim-nojieduan-1-1/k-(10,10)->打开文件l.F90->将第1931行变为nvar=10    ->将1939行变为DO IP=1,1   ->将1943行变为 X(I)=10.0D0   ->将1946行-1983行变为：
+G=0.0D0
+      DO I=1,SIZE(X)
+          G=G+(X(I))**2
+      END DO
+
+      F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+
+      
+! F=0.0D0
+!      DO I=1,SIZE(X)
+!          F=F+(X(I))**2
+!      END DO
+
+
+
+          WRITE(1,*)NF,F+G,X(:)
+   ->将1996行-1999行变为：
+   F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+->将2017行-2020行变为：
+      G=0.0D0
+      DO I=1,SIZE(X)
+          G=G+(X(I))**2
+      END DO
+     ->将2026行变为CALL Laplace(100.0D0/K,Epsilonk)     ->将2028行变为EPS(K)=Epsilonk*1.0D0    ->保存该文件并关闭->把文件夹10dim-nojieduan-1-1/k-(10,10)里除l.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹10dim-nojieduan-1-1/k-(10,10)拖入终端，按下回车键->在命令行输入：gfortran l.F90 -o l，按下回车键->再在命令行输入：./l，按下回车键，运行程序->待程序运行完成后，文件夹20dim-nojieduan-1-100/k里出现了结果文件history_F.csv和solution.csv，此为表格中NEWUOA-P求解该问题的对应数据。
+
+回到上层文件夹5.1test->打开文件夹newuoa-n->打开文件夹10dim-single->打开n.F90
+将第1689行变为nvar=10    ->将1697行变为DO IP=1,1   ->将1701行变为 X(I)=10.0D0   ->将1719行-1730行变为：
+   G=0.0D0
+      DO I=1,N
+          G=G+(X(I))**2
+      END DO
+
+      F=0.0D0
+      DO I=1,N
+          F=F+(X(I))**4
+      END DO
+   ->将1747行-1757行变为：
+   F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+     ->保存该文件并关闭->把文件夹10dim-single里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹10dim-single拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹10dim-single里出现了结果文件history_F.csv和solution.csv，此为表格中NEWUOA-P求解该问题的对应数据。
+
+
+->在桌面上打开matlab，将matlab的默认路径改为/Users/karlmarx/Desktop/xpc/5.1-5.5/newuoas-soft的副本，在该目录下打开main.m，将第六行改为：perfdata(10, 'plain'); ->再打开testalg.m，将第278-280行改为:
+f=0;
+f=sum(x.^4)+sum(x.^2);
+
+将第287行注释掉，再将294行-301行注释掉，将第290行改为：
+        f=f+Eps(100/length(fval_history))*1;
+将第292行改为：
+        f=f+Eps(100/(2*n))*1;
+将第157行改为：
+            xr=ones(n,1)*10;
+打开matlab窗口右侧文件列表中的problrms，将除了“arglina”之外的所有问题都删除。
+运行main.m，得到newuoa、fminunc_4test、fminsearch_4test、nms_4test四个算法求解该问题的的结果位于F_data.csv、NF_data.csv和X_data.csv中
+      
+
+表8:
+打开文件夹xpc->打开文件夹5.1test->打开文件夹未命名文件夹->打开文件夹实验19-21的副本->打开文件夹10dim-nojieduan-1-1/k-(10,10)->打开文件l.F90->将第1931行变为nvar=10    ->将1939行变为DO IP=1,1   ->将1943行变为 X(I)=10.0D0   ->将1946行-1983行变为：
+G=0.0D0
+      DO I=1,SIZE(X)
+          G=G+(X(I))**2
+      END DO
+
+      F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+
+      
+! F=0.0D0
+!      DO I=1,SIZE(X)
+!          F=F+(X(I))**2
+!      END DO
+
+
+
+          WRITE(1,*)NF,F+G,X(:)
+   ->将1996行-1999行变为：
+   F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+->将2017行-2020行变为：
+      G=0.0D0
+      DO I=1,SIZE(X)
+          G=G+(X(I))**2
+      END DO
+     ->将2026行变为CALL Laplace(10.0D0/K,Epsilonk)     ->将2028行变为EPS(K)=Epsilonk*1.0D0    ->保存该文件并关闭->把文件夹10dim-nojieduan-1-1/k-(10,10)里除l.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹10dim-nojieduan-1-1/k-(10,10)拖入终端，按下回车键->在命令行输入：gfortran l.F90 -o l，按下回车键->再在命令行输入：./l，按下回车键，运行程序->待程序运行完成后，文件夹20dim-nojieduan-1-100/k里出现了结果文件history_F.csv和solution.csv，此为表格中NEWUOA-P求解该问题的对应数据。
+
+回到上层文件夹5.1test->打开文件夹newuoa-n->打开文件夹10dim-single->打开n.F90
+将第1689行变为nvar=10    ->将1697行变为DO IP=1,1   ->将1701行变为 X(I)=10.0D0   ->将1719行-1730行变为：
+   G=0.0D0
+      DO I=1,N
+          G=G+(X(I))**2
+      END DO
+
+      F=0.0D0
+      DO I=1,N
+          F=F+(X(I))**4
+      END DO
+   ->将1747行-1757行变为：
+   F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+     ->保存该文件并关闭->把文件夹10dim-single里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹10dim-single拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹10dim-single里出现了结果文件history_F.csv和solution.csv，此为表格中NEWUOA-P求解该问题的对应数据。
+
+
+->在桌面上打开matlab，将matlab的默认路径改为/Users/karlmarx/Desktop/xpc/5.1-5.5/newuoas-soft的副本，在该目录下打开main.m，将第六行改为：perfdata(10, 'plain'); ->再打开testalg.m，将第278-280行改为:
+f=0;
+f=sum(x.^4)+sum(x.^2);
+
+将第287行注释掉，再将294行-301行注释掉，将第290行改为：
+        f=f+Eps(10/length(fval_history))*1;
+将第292行改为：
+        f=f+Eps(10/(2*n))*1;
+将第157行改为：
+            xr=ones(n,1)*10;
+打开matlab窗口右侧文件列表中的problrms，将除了“arglina”之外的所有问题都删除。
+运行main.m，得到newuoa、fminunc_4test、fminsearch_4test、nms_4test四个算法求解该问题的的结果位于F_data.csv、NF_data.csv和X_data.csv中
+      
+
+表9:
+打开文件夹xpc->打开文件夹5.1test->打开文件夹未命名文件夹->打开文件夹实验22-24的副本->打开文件夹10dim-nojieduan-1-10/k-1/k-p=0.5-(10,10)->打开文件m.F90->将第1983行变为nvar=10    ->将1991行变为DO IP=1,1   ->将1995行变为 X(I)=10.0D0   ->将2017行-2026行变为：
+      G=0.0D0
+      DO I=1,SIZE(X)
+          G=G+(X(I))**2
+      END DO
+      F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+
+          WRITE(1,*)NF,F+G,X(:)
+   ->将2039行-2043行变为：
+   F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+->将2058行-2061行变为：
+      G=0.0D0
+      DO I=1,SIZE(X)
+          G=G+(X(I))**2
+      END DO
+     ->将2026行变为CALL Laplace(10.0D0/K,Epsilonk)     ->将2071行变为         Epsilonk=(Epsilonk-0.5D0)*2*(1.0D0/K)   ->保存该文件并关闭->把文件夹10dim-nojieduan-1-10/k-1/k-p=0.5-(10,10)里除m.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹10dim-nojieduan-1-10/k-1/k-p=0.5-(10,10)拖入终端，按下回车键->在命令行输入：gfortran m.F90 -o m，按下回车键->再在命令行输入：./m，按下回车键，运行程序->待程序运行完成后，文件夹10dim-nojieduan-1-10/k-1/k-p=0.5-(10,10)里出现了结果文件history_F.csv和solution.csv，此为表格中NEWUOA-P求解该问题的对应数据。
+
+回到上层文件夹5.1test->打开文件夹newuoa-n->打开文件夹10dim-single->打开n.F90
+将第1689行变为nvar=10    ->将1697行变为DO IP=1,1   ->将1701行变为 X(I)=10.0D0   ->将1719行-1730行变为：
+   G=0.0D0
+      DO I=1,N
+          G=G+(X(I))**2
+      END DO
+
+      F=0.0D0
+      DO I=1,N
+          F=F+(X(I))**4
+      END DO
+   ->将1747行-1757行变为：
+   F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+     ->保存该文件并关闭->把文件夹10dim-single里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹10dim-single拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹10dim-single里出现了结果文件history_F.csv和solution.csv，此为表格中NEWUOA-P求解该问题的对应数据。
+
+
+->在桌面上打开matlab，将matlab的默认路径改为/Users/karlmarx/Desktop/xpc/5.1-5.5/newuoas-soft的副本，在该目录下打开main.m，将第六行改为：perfdata(10, 'plain'); ->再打开testalg.m，将第278-280行改为:
+f=0;
+f=sum(x.^4)+sum(x.^2);
+
+将第287行取消注释，再将294行-301行取消注释，将第290行改为：
+        f=f+Eps(10/length(fval_history))*1;
+将第292行改为：
+        f=f+Eps(10/(2*n))*1;
+将第297行改为：
+        f=f+f*(rand()-0.5)*2*(1/length(fval_history));
+将第299行改为：
+        f=f+Eps(10/(2*n))*1;
+将第157行改为：
+            xr=ones(n,1)*10;
+打开matlab窗口右侧文件列表中的problrms，将除了“arglina”之外的所有问题都删除。
+运行main.m，得到newuoa、fminunc_4test、fminsearch_4test、nms_4test四个算法求解该问题的的结果位于F_data.csv、NF_data.csv和X_data.csv中
+      
+
+表10:
+打开文件夹xpc->打开文件夹5.1test->打开文件夹未命名文件夹->打开文件夹实验22-24的副本->打开文件夹10dim-nojieduan-1-10/k-1/k-p=0.5-(10,10)->打开文件m.F90->将第1983行变为nvar=10    ->将1991行变为DO IP=1,1   ->将1995行变为 X(I)=10.0D0   ->将2017行-2026行变为：
+      G=0.0D0
+      DO I=1,SIZE(X)
+          G=G+(X(I))**2
+      END DO
+      F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+
+          WRITE(1,*)NF,F+G,X(:)
+   ->将2039行-2043行变为：
+   F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+->将2058行-2061行变为：
+      G=0.0D0
+      DO I=1,SIZE(X)
+          G=G+(X(I))**2
+      END DO
+     ->将2026行变为CALL Laplace(100.0D0/K,Epsilonk)     ->将2071行变为         Epsilonk=(Epsilonk-0.5D0)*2*(1.0D0/K)   ->保存该文件并关闭->把文件夹10dim-nojieduan-1-10/k-1/k-p=0.5-(10,10)里除m.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹10dim-nojieduan-1-10/k-1/k-p=0.5-(10,10)拖入终端，按下回车键->在命令行输入：gfortran m.F90 -o m，按下回车键->再在命令行输入：./m，按下回车键，运行程序->待程序运行完成后，文件夹10dim-nojieduan-1-10/k-1/k-p=0.5-(10,10)里出现了结果文件history_F.csv和solution.csv，此为表格中NEWUOA-P求解该问题的对应数据。
+
+回到上层文件夹5.1test->打开文件夹newuoa-n->打开文件夹10dim-single->打开n.F90
+将第1689行变为nvar=10    ->将1697行变为DO IP=1,1   ->将1701行变为 X(I)=10.0D0   ->将1719行-1730行变为：
+   G=0.0D0
+      DO I=1,N
+          G=G+(X(I))**2
+      END DO
+
+      F=0.0D0
+      DO I=1,N
+          F=F+(X(I))**4
+      END DO
+   ->将1747行-1757行变为：
+   F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+     ->保存该文件并关闭->把文件夹10dim-single里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹10dim-single拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹10dim-single里出现了结果文件history_F.csv和solution.csv，此为表格中NEWUOA-P求解该问题的对应数据。
+
+
+->在桌面上打开matlab，将matlab的默认路径改为/Users/karlmarx/Desktop/xpc/5.1-5.5/newuoas-soft的副本，在该目录下打开main.m，将第六行改为：perfdata(10, 'plain'); ->再打开testalg.m，将第278-280行改为:
+f=0;
+f=sum(x.^4)+sum(x.^2);
+
+将第287行取消注释，再将294行-301行取消注释，将第290行改为：
+        f=f+Eps(100/length(fval_history))*1;
+将第292行改为：
+        f=f+Eps(100/(2*n))*1;
+将第297行改为：
+        f=f+f*(rand()-0.5)*2*(1/length(fval_history));
+将第299行改为：
+        f=f+Eps(100/(2*n))*1;
+将第157行改为：
+            xr=ones(n,1)*10;
+打开matlab窗口右侧文件列表中的problrms，将除了“arglina”之外的所有问题都删除。
+运行main.m，得到newuoa、fminunc_4test、fminsearch_4test、nms_4test四个算法求解该问题的的结果位于F_data.csv、NF_data.csv和X_data.csv中
+      
+
+表11:
+打开文件夹xpc->打开文件夹5.1test->打开文件夹未命名文件夹->打开文件夹实验22-24的副本->打开文件夹10dim-nojieduan-1-10/k-1/k-p=0.5-(10,10)->打开文件m.F90->将第1983行变为nvar=10    ->将1991行变为DO IP=1,1   ->将1995行变为 X(I)=10.0D0   ->将2017行-2026行变为：
+      G=0.0D0
+      DO I=1,SIZE(X)
+          G=G+(X(I))**2
+      END DO
+      F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+
+          WRITE(1,*)NF,F+G,X(:)
+   ->将2039行-2043行变为：
+   F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+->将2058行-2061行变为：
+      G=0.0D0
+      DO I=1,SIZE(X)
+          G=G+(X(I))**2
+      END DO
+     ->将2026行变为CALL Laplace(100.0D0/K,Epsilonk)     ->将2071行变为         Epsilonk=(Epsilonk-0.5D0)*2*(K/10000.0D0)   ->保存该文件并关闭->把文件夹10dim-nojieduan-1-10/k-1/k-p=0.5-(10,10)里除m.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹10dim-nojieduan-1-10/k-1/k-p=0.5-(10,10)拖入终端，按下回车键->在命令行输入：gfortran m.F90 -o m，按下回车键->再在命令行输入：./m，按下回车键，运行程序->待程序运行完成后，文件夹10dim-nojieduan-1-10/k-1/k-p=0.5-(10,10)里出现了结果文件history_F.csv和solution.csv，此为表格中NEWUOA-P求解该问题的对应数据。
+
+回到上层文件夹5.1test->打开文件夹newuoa-n->打开文件夹10dim-single->打开n.F90
+将第1689行变为nvar=10    ->将1697行变为DO IP=1,1   ->将1701行变为 X(I)=10.0D0   ->将1719行-1730行变为：
+   G=0.0D0
+      DO I=1,N
+          G=G+(X(I))**2
+      END DO
+
+      F=0.0D0
+      DO I=1,N
+          F=F+(X(I))**4
+      END DO
+   ->将1747行-1757行变为：
+   F=0.0D0
+      DO I=1,SIZE(X)
+          F=F+(X(I))**4
+      END DO
+     ->保存该文件并关闭->把文件夹10dim-single里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹10dim-single拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹10dim-single里出现了结果文件history_F.csv和solution.csv，此为表格中NEWUOA-P求解该问题的对应数据。
+
+
+->在桌面上打开matlab，将matlab的默认路径改为/Users/karlmarx/Desktop/xpc/5.1-5.5/newuoas-soft的副本，在该目录下打开main.m，将第六行改为：perfdata(10, 'plain'); ->再打开testalg.m，将第278-280行改为:
+f=0;
+f=sum(x.^4)+sum(x.^2);
+
+将第287行取消注释，再将294行-301行取消注释，将第290行改为：
+        f=f+Eps(100/length(fval_history))*1;
+将第292行改为：
+        f=f+Eps(100/(2*n))*1;
+将第297行改为：
+        f=f+f*(rand()-0.5)*2*(length(fval_history)/10000.0D0);
+将第299行改为：
+        f=f+Eps(100/(2*n))*1;
+将第157行改为：
+            xr=ones(n,1)*10;
+打开matlab窗口右侧文件列表中的problrms，将除了“arglina”之外的所有问题都删除。
+运行main.m，得到newuoa、fminunc_4test、fminsearch_4test、nms_4test四个算法求解该问题的的结果位于F_data.csv、NF_data.csv和X_data.csv中
+      

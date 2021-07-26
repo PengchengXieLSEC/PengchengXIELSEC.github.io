@@ -1,0 +1,152 @@
+图1-3:
+STEP1（获取NEWUOA-P求解94个问题的数据）：打开文件夹wzp->打开文件夹newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹1-3 ->打开文件夹newuoas-p->打开文件newuoas-p.F90->将第1809行变为nvar=20->将第1817行改为 DO IP=1,94->将第1827行最后一个参数的取值变为FLAG_Epsilonk=1    ->将1851行-1852行注释掉->将1853-1865行变为：
+        CALL evalfun(PROBLEM,N,X,G,INFO)
+
+        N=SIZE(X)
+
+        F=0.0D0
+        DO I=1,N
+            F=F+(X(I))**2
+        END DO
+        F=(F-1)**2
+              !  print*,100.0D0*F,G,100.0D0*F+G
+
+
+        F=100.0D0*F+G
+->将1878行注释掉->将第1879行变为：
+	G=0.0D0
+->将第1889-1890行变为：
+                CALL Laplace(100.0D0/K,Epsilonk)
+                EPS(K)=Epsilonk
+
+        N=SIZE(X)
+        CALL evalfun(PROBLEM,N,X,G,INFO)
+->将1888行和1912行注释掉 ->将第609行和第656行注释掉 ->分别在608行和655行改为G=0.0D0->保存该文件并关闭->把文件夹newuoas-p里除数据，newuoas-p.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹newuoas-p拖入终端，按下回车键->在命令行输入：gfortran newuoas-p.F90 -o newuoas-p，按下回车键->再在命令行输入：./newuoas-p，按下回车键，运行程序->待程序运行完成后，文件夹task1-2里出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-P线的对应数据->在桌面上打开文件夹wzp->打开文件newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹1-3->打开文件夹newuoas-soft-task2->将得到的结果文件history_F.csv和solution.csv拖到文件夹newuoas-soft-task2中并覆盖掉现有的文件，同时把solution.csv文件中除第一列之外全部删除。
+STEP2（获取NEWUOA-N求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1-5.5->打开文件夹5.1test->打开文件夹newuoa-n->打开文件夹20dim->打开文件n.F90->将第1689行变为nvar=20    ->将1697行变为DO IP=1,94   ->保存该文件并关闭->把文件夹20dim里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹20dim出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-N线的对应数据。将结果文件重新命名为history_F-20.csv和solution-20.csv。->在桌面上打开文件夹wzp->打开文件newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹1-3->打开文件夹newuoas-soft-task2->将得到的结果文件history_F-20.csv和solution-20.csv拖到文件夹newuoas-soft-task2中并覆盖掉现有的文件，同时把solution-20.csv文件中除第一列之外全部删除。
+STEP3（获取其他算法求解94个问题的数据并画图）：打开MATLAB->将MATLAB运行路径设置为/Users/karlmarx/Desktop/wzp/newuoas-715/task1-4/task1-2/1-3/newuoas-soft-task2->打开testalg.m->将281行变为f = f + 100*(norm(x)^2-1)^2;->将290行变为f=f+Eps(100/length(fval_history));->将292行变为f=f+Eps(100/(2*n));->将286-287行注释掉->将294-301行注释掉->打开main.m->将第6行变为perfdata(20, 'plain');->打开文件solvers，将其内容变为
+newuoa
+newuoa
+fminunc_4test
+fminsearch_4test
+nms_4test
+nms_4test
+->运行main.m，->在桌面上打开文件夹wzp->打开文件夹newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹1-3->打开文件夹newuoas-soft-task2->打开文件夹results->打开最新生成的文件夹，所需的图就在这个文件夹里面。
+
+
+图4-6,7-9：
+STEP1（获取NEWUOA-P求解94个问题的数据）：打开文件夹wzp->打开文件夹newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹4-6,7-9 ->打开文件夹newuoas-p->打开文件newuoas-p.F90->将第1809行变为nvar=20->将第1817行改为 DO IP=1,94->将第1827行最后一个参数的取值变为FLAG_Epsilonk=1    ->将1851行-1852行注释掉->将1853-1865行变为：
+        CALL evalfun(PROBLEM,N,X,G,INFO)
+
+        N=SIZE(X)
+
+        F=0.0D0
+        DO I=1,N
+            F=F+(X(I))**2
+        END DO
+        F=(F-1)**2
+              !  print*,100.0D0*F,G,100.0D0*F+G
+
+
+        F=100.0D0*F+G
+->将1878行注释掉->将第1879行变为：
+	G=0.0D0
+->将第1889-1890行变为：
+                CALL Laplace(100.0D0/K,Epsilonk)
+                EPS(K)=Epsilonk*100.0D0
+
+        N=SIZE(X)
+        CALL evalfun(PROBLEM,N,X,G,INFO)
+->将1888行和1912行注释掉 ->将第609行和第656行注释掉 ->分别在608行和655行改为G=0.0D0->保存该文件并关闭->把文件夹newuoas-p里除数据，newuoas-p.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹newuoas-p拖入终端，按下回车键->在命令行输入：gfortran newuoas-p.F90 -o newuoas-p，按下回车键->再在命令行输入：./newuoas-p，按下回车键，运行程序->待程序运行完成后，文件夹task1-2里出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-P线的对应数据->在桌面上打开文件夹wzp->打开文件newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹4-6,7-9->打开文件夹newuoas-soft-task2->将得到的结果文件history_F.csv和solution.csv拖到文件夹newuoas-soft-task2中并覆盖掉现有的文件，同时把solution.csv文件中除第一列之外全部删除。
+STEP2（获取NEWUOA-N求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1-5.5->打开文件夹5.1test->打开文件夹newuoa-n->打开文件夹20dim->打开文件n.F90->将第1689行变为nvar=20    ->将1697行变为DO IP=1,94   ->保存该文件并关闭->把文件夹20dim里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹20dim出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-N线的对应数据。将结果文件重新命名为history_F-20.csv和solution-20.csv。->在桌面上打开文件夹wzp->打开文件newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹4-6,7-9->打开文件夹newuoas-soft-task2->将得到的结果文件history_F-20.csv和solution-20.csv拖到文件夹newuoas-soft中并覆盖掉现有的文件，同时把solution-20.csv文件中除第一列之外全部删除。
+STEP3（获取其他算法求解94个问题的数据并画图）：打开MATLAB->将MATLAB运行路径设置为/Users/karlmarx/Desktop/wzp/newuoas-715/task1-4/task1-2/4-6,7-9/newuoas-soft-task2->打开testalg.m->将281行变为f = f + 100*(norm(x)^2-1)^2;->将290行变为f=f+Eps(100/length(fval_history))*100;->将292行变为f=f+Eps(100/(2*n))*100;->将286-287行注释掉->将294-301行注释掉->打开main.m->将第6行变为perfdata(20, 'plain');->打开文件solvers，将其内容变为
+newuoa
+newuoa
+fminunc_4test
+fminsearch_4test
+nms_4test
+nms_4test
+->运行main.m，->在桌面上打开文件夹wzp->打开文件夹newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹4-6,7-9->打开文件夹newuoas-soft-task2->打开文件夹results->打开最新生成的文件夹，所需的图就在这个文件夹里面。
+
+
+图10-12,13-15,16-18：
+STEP1（获取NEWUOA-P求解94个问题的数据）：打开文件夹wzp->打开文件夹newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹10-12,13-15,16-18->打开文件夹newuoas-p->打开文件newuoas-p.F90->将第1809行变为nvar=20->将第1817行改为 DO IP=1,94->将第1827行最后一个参数的取值变为FLAG_Epsilonk=2    ->将1851行-1852行注释掉->将1853-1865行变为：
+        CALL evalfun(PROBLEM,N,X,G,INFO)
+
+        N=SIZE(X)
+
+        F=0.0D0
+        DO I=1,N
+            F=F+(X(I))**2
+        END DO
+        F=(F-1)**2
+              !  print*,100.0D0*F,G,100.0D0*F+G
+
+
+        F=100.0D0*F+G
+->将1878行注释掉->将第1879行变为：
+	G=0.0D0
+->将第1889-1890行变为：
+                CALL Laplace(100.0D0/K,Epsilonk)
+                EPS(K)=Epsilonk*100.0D0
+->将1895行和1919行注释掉 ->将1928行-1936行变为：
+                    F=0.0D0
+                    DO I=1,N
+                       F=F+(X(I))**2
+                    END DO
+                    F=(F-1)**2
+                    F=100.0D0*F
+
+                    Epsilonk=EPS2(K)
+                    G=G+EPS2(K)*(F+FF)
+->将第609行和第656行注释掉 ->分别在610行和657行改为G=0.0D0->保存该文件并关闭->把文件夹newuoas-p里除数据，newuoas-p.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹newuoas-p拖入终端，按下回车键->在命令行输入：gfortran newuoas-p.F90 -o newuoas-p，按下回车键->再在命令行输入：./newuoas-p，按下回车键，运行程序->待程序运行完成后，文件夹task1-2里出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-P线的对应数据->在桌面上打开文件夹wzp->打开文件newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹10-12,13-15,16-18->打开文件夹newuoas-soft-task2->将得到的结果文件history_F.csv和solution.csv拖到文件夹newuoas-soft-task2中并覆盖掉现有的文件，同时把solution.csv文件中除第一列之外全部删除。
+STEP2（获取NEWUOA-N求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1-5.5->打开文件夹5.1test->打开文件夹newuoa-n->打开文件夹20dim->打开文件n.F90->将第1689行变为nvar=20    ->将1697行变为DO IP=1,94   ->保存该文件并关闭->把文件夹20dim里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹20dim出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-N线的对应数据。将结果文件重新命名为history_F-20.csv和solution-20.csv。->在桌面上打开文件夹wzp->打开文件newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹10-12,13-15,16-18->打开文件夹newuoas-soft-task2->将得到的结果文件history_F-20.csv和solution-20.csv拖到文件夹newuoas-soft-task2中并覆盖掉现有的文件，同时把solution-20.csv文件中除第一列之外全部删除。
+STEP3（获取其他算法求解94个问题的数据并画图）：打开MATLAB->将MATLAB运行路径设置为/Users/karlmarx/Desktop/wzp/newuoas-715/task1-4/task1-2/10-12,13-15,16-18/newuoas-soft-task2->打开testalg.m->将281行变为f = f + 100*(norm(x)^2-1)^2;->将290行变为f=f+Eps(100/length(fval_history))*100;->将292行变为f=f+Eps(100/(2*n))*100;->将286-287行取消注释->将294-301行取消注释->打开main.m->将第6行变为perfdata(20, 'plain');->打开文件solvers，将其内容变为
+newuoa
+newuoa
+fminunc_4test
+fminsearch_4test
+nms_4test
+nms_4test
+->运行main.m，->在桌面上打开文件夹wzp->打开文件夹newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹10-12,13-15,16-18->打开文件夹newuoas-soft-task2->打开文件夹results->打开最新生成的文件夹，所需的图就在这个文件夹里面。
+
+
+图19:
+STEP1（获取NEWUOA-P求解94个问题的数据）：打开文件夹wzp->打开文件夹newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹19->打开文件夹newuoas-p->打开文件newuoas-p.F90->将第1809行变为nvar=20->将第1817行改为 DO IP=1,94->将第1827行最后一个参数的取值变为FLAG_Epsilonk=2    ->将1851行-1852行注释掉->将1853-1865行变为：
+        CALL evalfun(PROBLEM,N,X,G,INFO)
+
+        N=SIZE(X)
+
+        F=0.0D0
+        DO I=1,N
+            F=F+(X(I))**2
+        END DO
+        F=(F-1)**2
+              !  print*,100.0D0*F,G,100.0D0*F+G
+
+
+        F=100.0D0*F+G
+->将1878行注释掉->将第1879行变为：
+	G=0.0D0
+->将第1889-1890行变为：
+                CALL Laplace(100.0D0/K,Epsilonk)
+                EPS(K)=Epsilonk*100.0D0
+->将1895行和1919行注释掉 ->将1928行-1936行变为：
+                    F=0.0D0
+                    DO I=1,N
+                       F=F+(X(I))**2
+                    END DO
+                    F=(F-1)**2
+                    F=100.0D0*F
+
+                    Epsilonk=EPS2(K)
+                    G=G+EPS2(K)*(F+FF)
+->将第609行和第656行注释掉 ->分别在610行和657行改为G=0.0D0->保存该文件并关闭->把文件夹newuoas-p里除数据，newuoas-p.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹newuoas-p拖入终端，按下回车键->在命令行输入：gfortran newuoas-p.F90 -o newuoas-p，按下回车键->再在命令行输入：./newuoas-p，按下回车键，运行程序->待程序运行完成后，文件夹task1-2里出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-P线的对应数据->在桌面上打开文件夹wzp->打开文件newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹19->打开文件夹newuoas-soft-task2->将得到的结果文件history_F.csv和solution.csv拖到文件夹newuoas-soft-task2中并覆盖掉现有的文件，同时把solution.csv文件中除第一列之外全部删除。
+STEP2（获取NEWUOA-N求解94个问题的数据）：打开文件夹xpc->打开文件夹5.1-5.5->打开文件夹5.1test->打开文件夹newuoa-n->打开文件夹20dim->打开文件n.F90->将第1689行变为nvar=20    ->将1697行变为DO IP=1,94   ->保存该文件并关闭->把文件夹20dim里除n.F90文件之外的所有文件都移入废纸篓->打开终端->在命令行输入：cd+1个空格，然后将文件夹20dim拖入终端，按下回车键->在命令行输入：gfortran n.F90 -o n，按下回车键->再在命令行输入：./n，按下回车键，运行程序->待程序运行完成后，文件夹20dim出现了结果文件history_F.csv和solution.csv，此为图中NEWUOA-N线的对应数据。将结果文件重新命名为history_F-20.csv和solution-20.csv。->在桌面上打开文件夹wzp->打开文件newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹19->打开文件夹newuoas-soft-task2->将得到的结果文件history_F-20.csv和solution-20.csv拖到文件夹newuoas-soft-task2中并覆盖掉现有的文件，同时把solution-20.csv文件中除第一列之外全部删除。
+STEP3（获取其他算法求解94个问题的数据并画图）：打开MATLAB->将MATLAB运行路径设置为/Users/karlmarx/Desktop/wzp/newuoas-715/task1-4/task1-2/19/newuoas-soft-task2->打开testalg.m->将281行变为f = f + 100*(norm(x)^2-1)^2;->将290行变为f=f+Eps(100/length(fval_history))*100;->将292行变为f=f+Eps(100/(2*n))*100;->将286-287行取消注释->将294-301行取消注释->打开main.m->将第6行变为perfdata(20, 'plain');->打开perfdata.m，将122-229行取消注释，将257-272行注释掉->打开文件solvers，将其内容变为
+newuoa
+newuoa
+fminunc_4test
+fminsearch_4test
+nms_4test
+nms_4test
+->运行main.m，->在桌面上打开文件夹wzp->打开文件夹newuoas-715->打开文件夹task1-4->打开文件夹task1-2->打开文件夹19->打开文件夹newuoas-soft-task2->所需的图就是这个文件夹里面的history_f.eps。
