@@ -20,10 +20,10 @@ Task-A: +5个文件夹, 标黄的要有+
   | 所有图（如[readme/task1-2.txt -P]所示） |   Read_me.txt  |  新Read_me.txt （两种噪声合并后） | F90中的中文注释 ||
 Task 1-1 | Y | [readme/new/task1.txt Y]  | N | +N+  || 
 Task 1-2 | N  | N  |  [readme/new/task1-2.txt Y]  | N  ||
-Task 1-3 | N  | N  |  [readme/new/task1-3.txt Y]  | N   ||
+Task 1-3 | N  | N  |  [readme/new/task1-3.txt Y] [readme/new/fangbian.txt Change]  | N   ||
 Task 1-4: Task 1-2 | +Y+  | N  |  [readme/new/task1-4-1-2.txt Y]  | N   ||
 Task 1-4: Task 1-3 | +Y+  | N  |  [readme/new/task1-4-1-3.txt Y]  | N  ||
-Task 1-5 |  [readme/new/task1-5.txt Y]   | N  |  N | +N+ 
+Task 1-5 | +Y+ | [readme/new/task1-5.txt Y] | N | +N+ 
 ~~~
 
 注意：加F90中的中文注释时将F90文件各+新复制+一份出来 (不要影响到原来没有加中文注释的F90文件)，命名为：
