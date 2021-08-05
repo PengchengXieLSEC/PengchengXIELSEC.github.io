@@ -18,7 +18,7 @@ Task-A: +5个文件夹, 标黄的要有+
 ~~~
 {4}{table}{TABLENAME}
   | 所有图（如[readme/task1-2.txt -P]所示） |   Read_me.txt  |  新Read_me.txt （两种噪声合并后） | F90中的中文注释 ||
-Task 1-1 | Y | [readme/new/task1.txt Y]  | N | +N+  || 
+Task 1-1 | Y | [readme/new/task1.txt Y]  | N |  [file/newuoas-p完美板.F90 Y]   || 
 Task 1-2 | N  | N  |  [readme/new/task1-2.txt Y]  | N  ||
 Task 1-3 | N  | N  |  [readme/new/task1-3.txt Y] [readme/new/fangbian.txt Change]  | N   ||
 Task 1-4: Task 1-2 | +Y+  | N  |  [readme/new/task1-4-1-2.txt Y]  | N   ||
@@ -131,6 +131,11 @@ Task 1-3：(一定要是又一个重新的新文件夹)
 
 [readme/python.txt NEWUOA-python]
 
+
+
+[file/scratch.py NEWUOA-Python-Codes-V0.7]
+
+
 ~~~
 
 
@@ -139,6 +144,9 @@ Task 1-3：(一定要是又一个重新的新文件夹)
 
 
 [NEWUOA-matlab-V0.6.zip NEWUOA-matlab-Codes-V0.6]
+
+[file/NEWUOA_1-15(804).zip NEWUOA-matlab-Codes-V0.9]
+
 
 ~~~
 
@@ -150,6 +158,11 @@ Task 1-3：(一定要是又一个重新的新文件夹)
 
 ~~~
 
+~~~
+
+[Tset_problem.pdf Modified CUTE Problems for Sparse Unconstrained Optimization]\n
+
+~~~
 
 
 
