@@ -1,0 +1,4 @@
+主要文件1：profile.py
+运行时需要的自己写的文件有：obj_fun.py，SUSD_optimizer.py，yinzi_pdfo.py，TRUNCATED_CG.py
+主要文件1：Compare.py
+运行时需要的自己写的文件有：linear_high_parameter_SUSD.py作引子用，linear_12D.py，linear_2D.py

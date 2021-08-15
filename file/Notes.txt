@@ -1,0 +1,43 @@
+Transformed Objective Function and Least Frobenius Norm Quadratic Model in Derivative-free Optimization with Solver NEWUOA-P and Applications
+----------------------------------------------------------
+1 Motivation and Introduction
+
+1.1 Derivative-free optimization methods
+1.2 Transformed objective function and black-box problems
+1.3 Private black-box optimization and differential privacy
+1.4 Main contributions
+1.5 Organization
+
+----------------------------------------------------------
+2 New least Frobenius norm updating of quadratic model and NEWUOA-P
+
+2.1 New model update formula
+2.2 Simplification details and interpolation process
+2.3 Discussion on the quadratic model subproblem
+2.4 Solution shift
+
+----------------------------------------------------------
+3 Transformation and Solution Shift
+
+3.1 Monotonic increasing transformation and examples
+3.2 Linear transformation and quadratic model
+3.3 Transformation maintaining model solution shift
+3.4 Other notes on transformation and NEWUOA-P
+
+----------------------------------------------------------
+4 Convergence Analysis
+
+4.1 Fully linear model and interpolation error
+4.2 Convergence property of NEWUOA-P
+
+----------------------------------------------------------
+5 Applications to Private Black-box Optimization
+
+5.1 Differentially private noise-adding mechanisms
+5.2 Differentially private mechanism based on Laplacian noise
+5.3 Differentially private mechanism based on mixed noise
+5.4 Convergence analysis for solving differentially private problems with NEWUOA-P
+5.5 Numerical Results
+
+----------------------------------------------------------
+6 Conclusion and Future Work
