@@ -44,27 +44,24 @@
 <td id="layout-content">
 <h2>Working List</h2>
 <h2>Direct search based on probabilitistic descent</h2>
-<p><a href="file/gratton2015.pdf">Refferences</a></p>
+<p><a href="file/gratton2015.pdf">References</a></p>
 <h2>Trust region method with AI interpolation</h2>
 <p><tt>Matlab codes</tt></p>
 <h2>NEWUOA-P：求解带噪声的问题</h2>
-<div class="infoblock">
-<div class="blockcontent">
 <p>需要复制出来一份新的task 1-1，另加一个非常简单的task 1-5: </p>
 <p>和Task 1-1完全一致，唯一的区别是：NEWUOA那条线不再使用matlab计算，而是使用fortran计算，也就是在Task1-5的文件夹里多加一条用NEWUOA求解带有和NEWUOA-P求解问题一样的噪声的线，也和NEWUOA-P和NEWUOA-N一样，从Fortran运行后的csv结果导入history_f和solution. <tt>仍然是6条线</tt></p>
 <p>这是因为后面NEWUOA的matlab的接口就用不了了，这样就可以完全脱离mex接口了.</p>
 <p>Task-A: <tt>5个文件夹, 标黄的要有</tt></p>
 <p>另外附加一个read_me_special.txt: 描述如何调整matlab中的放大镜那张图</p>
-</div></div>
-<p>| 所有图（如<a href="readme/task1-2.txt">-P</a>所示） |   Read_me.txt  |  新Read_me.txt （两种噪声合并后） | F90中的中文注释 ||
-Task 1-1 | Y | <a href="readme/new/task1.txt">Y</a>  | N |  <a href="file/newuoas-p完美板.F90">Y</a>   || 
-Task 1-2 | N  | N  |  <a href="readme/new/task1-2.txt">Y</a>  | N  ||
-Task 1-3 | N  | N  |  <a href="readme/new/task1-3.txt">Y</a> <a href="readme/new/fangbian.txt">Change</a>  | N   ||
-Task 1-4: Task 1-2 | <tt>Y</tt>  | N  |  <a href="readme/new/task1-4-1-2.txt">Y</a>  | N   ||
-Task 1-4: Task 1-3 | <tt>Y</tt>  | N  |  <a href="readme/new/task1-4-1-3.txt">Y</a>  | N  ||
-Task 1-5 | <tt>Y</tt> | <a href="readme/new/task1-5.txt">Y</a> | N | <tt>N</tt> </p>
-<div class="infoblock">
-<div class="blockcontent">
+<table id="TABLENAME">
+<tr class="r1"><td class="c1"></td><td class="c2"> 所有图（如<a href="readme/task1-2.txt">-P</a>所示） </td><td class="c3">   Read_me.txt  </td><td class="c4">  新Read_me.txt （两种噪声合并后） </td><td class="c5"> F90中的中文注释 </td></tr>
+<tr class="r2"><td class="c1">Task 1-1 </td><td class="c2"> Y </td><td class="c3"> <a href="readme/new/task1.txt">Y</a>  </td><td class="c4"> N </td><td class="c5">  <a href="file/newuoas-p完美板.F90">Y</a>   </td></tr>
+<tr class="r3"><td class="c1"> Task 1-2 </td><td class="c2"> N  </td><td class="c3"> N  </td><td class="c4">  <a href="readme/new/task1-2.txt">Y</a>  </td><td class="c5"> N  </td></tr>
+<tr class="r4"><td class="c1">Task 1-3 </td><td class="c2"> N  </td><td class="c3"> N  </td><td class="c4">  <a href="readme/new/task1-3.txt">Y</a> <a href="readme/new/fangbian.txt">Change</a>  </td><td class="c5"> N   </td></tr>
+<tr class="r5"><td class="c1">Task 1-4: Task 1-2 </td><td class="c2"> <tt>Y</tt>  </td><td class="c3"> N  </td><td class="c4">  <a href="readme/new/task1-4-1-2.txt">Y</a>  </td><td class="c5"> N   </td></tr>
+<tr class="r6"><td class="c1">Task 1-4: Task 1-3 </td><td class="c2"> <tt>Y</tt>  </td><td class="c3"> N  </td><td class="c4">  <a href="readme/new/task1-4-1-3.txt">Y</a>  </td><td class="c5"> N  </td></tr>
+<tr class="r7"><td class="c1">Task 1-5 </td><td class="c2"> <tt>Y</tt> </td><td class="c3"> <a href="readme/new/task1-5.txt">Y</a> </td><td class="c4"> N </td><td class="c5"> <tt>N</tt> 
+</td></tr></table>
 <p>注意：加F90中的中文注释时将F90文件各<tt>新复制</tt>一份出来 (不要影响到原来没有加中文注释的F90文件)，命名为：</p>
 <p><tt>Task1-1-Chin-Remark.F90</tt></p>
 <p>注：</p>
@@ -84,7 +81,6 @@ Task 1-5 | <tt>Y</tt> | <a href="readme/new/task1-5.txt">Y</a> | N | <tt>N</tt> 
 <li><p>优化Task 1-2的<tt>时间</tt>，不能运行时间太长.</p>
 </li>
 </ul>
-</div></div>
 <div class="infoblock">
 <div class="blockcontent">
 <p><a href="readme/task1-2.txt">NEWUOA-P</a></p>
