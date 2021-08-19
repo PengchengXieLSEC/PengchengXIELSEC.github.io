@@ -151,6 +151,7 @@
 <div class="blockcontent">
 <p>我们可以尝试基于信赖域框架,利用神经网络对函数进行逼近和拟合,鄂维南教授曾给出双层神经网络逼近任意函数时的误差分析.可以考虑分析双层神经网络所构造出的用于拟合原目标函数的模型函数是否是全线性模型或全二次模型,或者是什么新定义的模型,值得注意的是利用双层神经网络生成的模型函数的拟合误差不会出现维数灾难.
 <a href="Approximation_task.txt">Approximation task related to Prof. E</a><br /></p>
+<p><a href="file/Double_NN.py">Codes</a></p>
 </div></div>
 <div class="infoblock">
 <div class="blockcontent">
@@ -173,6 +174,26 @@
 <div class="blockcontent">
 <p>参考最佳平方逼近以及自然样条插值函数满足最小势能原理的相关性质，关于二次模型函数以及其对应的高维曲面，我们可以试图去寻找可以使得二次模型函数在信赖域<img class="eq" src="eqs/8849497426286858133-130.png" alt="B_{Delta}(x^{*})" style="vertical-align: -5px" />内能量最小的相应系数。这一想法保证了所用的二次插值函数是符合插值方程的二次函数中能量最小的，也可以理解为不受任何外力的，具有最自然，平顺性质的.</p>
 <p><a href="file/2个思考/无导数优化和soblev.pdf">Notes</a></p>
+<p>Soblev空间</p>
+<p><img class="eq" src="eqs/808246662599842265-130.png" alt="H^{0}" style="vertical-align: -0px" />范数:</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/9046489105078670979-130.png" alt=" left(int_{Omega}(Q(x))^{2} d xright)^{frac{1}{2}} " />
+<br /></div><p><img class="eq" src="eqs/808246662598842150-130.png" alt="H^{1}" style="vertical-align: -0px" />半范数:</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/3665210846082349447-130.png" alt=" left(int_{Omega}|nabla Q(x)|^{2} d xright)^{frac{1}{2}} " />
+<br /></div><p><img class="eq" src="eqs/808246662598842150-130.png" alt="H^{1}" style="vertical-align: -0px" />范数=<img class="eq" src="eqs/808246662599842265-130.png" alt="H^{0}" style="vertical-align: -0px" />范数+<img class="eq" src="eqs/808246662598842150-130.png" alt="H^{1}" style="vertical-align: -0px" />半范数</p>
+<p>For <img class="eq" src="eqs/4602926011647846924-130.png" alt="Q(x)=frac{1}{2} x^{top} B x+g^{top} x+c" style="vertical-align: -7px" />, where <img class="eq" src="eqs/6851426340804909603-130.png" alt="B in {R}^{n times n}" style="vertical-align: -1px" />, symmetric, <img class="eq" src="eqs/3355528205554695347-130.png" alt="g in {R}^{n}" style="vertical-align: -4px" />, <img class="eq" src="eqs/6729219162998250697-130.png" alt="c in {R}" style="vertical-align: -1px" />
+<img class="eq" src="eqs/1768550482833470372-130.png" alt="Omega=B_{r}left(x_{0}right)" style="vertical-align: -5px" /></p>
+<p>计算</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/1936800673594267485-130.png" alt=" sum_{n=0}^{2}alpha_{n} int_{Omega}left(Q^{(n)}(x)right)^{2} d x " />
+<br /></div><p>或</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/4093812466743930417-130.png" alt=" sum_{n=0}^{2} alpha_{n}left(int_{Omega}left(Q^{(n)}(x)right)^{2} d xright)^{frac{1}{2}} " />
+<br /></div><p>For quadratic model function <img class="eq" src="eqs/4478277244261229526-130.png" alt="Q(x)" style="vertical-align: -5px" /></p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/111384176837939708-130.png" alt=" alpha_{0} int_{Omega}(Q(x))^{2} d x+alpha_{1} int_{Omega}|nabla Q(x)|_{2}^{2} d x+alpha_{2} int_{Omega}left|nabla^{2} Q(x) |_{F}^{2} d xright. " />
+<br /></div><p>寻找用<img class="eq" src="eqs/6433566031047058337-130.png" alt="B_{r}left(x_{0}right)" style="vertical-align: -5px" />的半径<img class="eq" src="eqs/14592043891-130.png" alt="r" style="vertical-align: -1px" />或体积<img class="eq" src="eqs/15104045431-130.png" alt="v" style="vertical-align: -1px" />所表示的权重系数<img class="eq" src="eqs/4848173792684449012-130.png" alt="alpha_{0}, alpha_{1}, alpha_{2}" style="vertical-align: -4px" />,在合并同列项后使得目标函数的形式美观、简单.</p>
 </div></div>
 <h2>有意思的Slides</h2>
 <p><a href="file/wildowd.pdf">Zero-Order, Black-Box, Derivative-Free, and Simulation-Based Optimization</a></p>
