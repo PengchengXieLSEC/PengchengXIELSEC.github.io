@@ -145,6 +145,11 @@
 <p><a href="file/NEWUOA_1-15(809-1).zip">NEWUOA-matlab-Codes-V0.91</a></p>
 <p><a href="file/NEWUOA_1-15(811).zip">NEWUOA-matlab-Codes-V0.92</a></p>
 <p><a href="file/NEWUOA_1-15(817).zip">NEWUOA-matlab-Codes-V0.93</a></p>
+<p><a href="file/NEWUOAMethod(821).zip">NEWUOA-matlab-Codes-V0.94</a></p>
+<p><a href="file/NEWUOAMethod(822).zip">NEWUOA-matlab-Codes-V0.95</a></p>
+<p><a href="file/NEWUOAMethod(823).zip">NEWUOA-matlab-Codes-V0.96</a></p>
+<p>问题：</p>
+<p>举例就是，比如一开始的Step1中，完成了计算我们会调用Step2，不过由于Step1还没有结束(在计算Step1中的Step2)，所以Steps1中的变量仍然被储存着。这样随着不断的循环，就会有很多很多的Step没有被关闭，matlab会储存那些冗余的变量</p>
 </div></div>
 <h2>Other tasks</h2>
 <div class="infoblock">
@@ -197,6 +202,17 @@
 </div></div>
 <h2>有意思的Slides</h2>
 <p><a href="file/wildowd.pdf">Zero-Order, Black-Box, Derivative-Free, and Simulation-Based Optimization</a></p>
+<h2>Others</h2>
+<p>目标函数写出来之后凑<img class="eq" src="eqs/4848173792684449012-130.png" alt="alpha_{0}, alpha_{1}, alpha_{2}" style="vertical-align: -4px" />然后写出KKT条件</p>
+<p><img class="eq" src="eqs/7366215513175476343-130.png" alt="M: quad G times G rightarrow G" style="vertical-align: -1px" /></p>
+<p><img class="eq" src="eqs/8118075531497836603-130.png" alt="tau: quad G rightarrow G" style="vertical-align: -1px" /></p>
+<p><img class="eq" src="eqs/3780150726347129359-130.png" alt="[,] ." style="vertical-align: -5px" /> (1) <img class="eq" src="eqs/1223310201701060194-130.png" alt="[x, y]=-[y, x]" style="vertical-align: -5px" /></p>
+<p>(2)双线性性</p>
+<p>(3) <img class="eq" src="eqs/3119730380690227226-130.png" alt="[[x, y], z]+[[y, z] x]+[[z, x], y)=0" style="vertical-align: -5px" /></p>
+<p>例子.李群: <img class="eq" src="eqs/4041598439755954079-130.png" alt="G L(n, C) cdot S L(2, c)" style="vertical-align: -5px" /></p>
+<p>李代数:<img class="eq" src="eqs/6188060713033130996-130.png" alt="g((n, C), quad s L(2, C)" style="vertical-align: -5px" /></p>
+<h2>Fokker-Planck equation</h2>
+<p><a href="xpc-gzr.pdf">Related paper</a><br /></p>
 </td>
 </tr>
 </table>

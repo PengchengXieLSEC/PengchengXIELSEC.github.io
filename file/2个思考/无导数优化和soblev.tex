@@ -766,6 +766,157 @@ r=\max \left\{M \Delta_{k}, \max _{y \in \mathcal{I}_{k}}\left\|y-x_{k}\right\|_
 $$
 以上分析仅是一种思路雏形，数值实验有待进一步尝试.
 
+--------------------------------------------------------------
+
+
+\(
+\begin{aligned}
+&Q(x)=\frac{1}{2} x^{\top} B x+g^{\top} x+c \quad \Lambda=B_{r}\left(x_{0}\right)=\left\{x \in R^{n} \mid\left\|x-x_{0}\right\| \leq r\right\}\\
+&B \in R^{n \times n}, \quad g \in R^{n}, x \in R^{n}, c \in R
+\end{aligned}
+\)
+
+Frobenins范数:
+\(
+A=\left(a_{i j}\right)_{n x n} . \quad\|A\|_{F}=\left(\sum_{i j}\left(a_{i j}\right)^{2}\right)^{\frac{1}{2}}
+\)
+
+\(
+\begin{aligned}
+(Q)_{H^{0}\left(B_{r}\right)}^{2} &=\int_{B_{r}\left(x_{0}\right)}(Q(x))^{2} d x=\int_{B_{r}\left(x_{0}\right)}\left(\frac{1}{2} x^{\top} B x+g^{\top} x+c\right)^{2} d x \\
+&=\int_{B_{r}(0)}\left(\frac{1}{2}\left(x+x_{0}\right)^{\top} B\left(x+x_{0}\right)+g^{\top}\left(x+x_{0}\right)+c\right)^{2} d x \\
+&=\int_{B r}(0)\left(\frac{1}{2}\left(x^{\top} B x+x^{\top} B x_{0}+x_{0}^{\top} B_{x}+x_{0}^{\top} B x_{0}\right)+g^{\top} x\right.\\
+\left.+g^{\top} x_{0}+C\right)^{2} d x
+\end{aligned}
+\)
+
+\(
+\begin{aligned}
+&=\int_{B_{r}}(0)\left(\frac{1}{4}\left(x^{\top} B_{x}+2 x^{\top} B_{x_{0}}+x_{0}^{T} B x_{0}\right)^{2}+\left(g^{\top} x\right)^{2}\right.\\
+&+\left(g^{\top} x_{0}\right)^{2}+c^{2} +\left(x^{\top} B x+2 x^{\top} B x_{0}+x_{0}^{\top} B x_{0}\right)\left(g^{\top} x\right)\\
+&+\left(x^{\top} B x+2 x^{\top} B x_{0}+x_{0}^{\top} B_{x_{0}}\right)\left(g^{\top} x_{0}+c\right)+2 g^{\top} x\left(g^{\top} x_{0}+c\right)\\
+&\left.+2(g^{\top} x_{0}\right) dx
+\end{aligned}
+\)
+
+注意(上面倒数第二行是)$\left.+2( g^{\top} x_{0}\right) dx$还是$\left.+2cg^{\top} x_{0}\right) dx$打的是$\left.+2( g^{\top} x_{0}\right) dx$
+
+先设$x_{0}=0:$则
+\(
+\begin{aligned}
+(1) &=\int_{B r}(0) \frac{1}{4}\left(x^{\top} B_{x}\right)^{2} d x=\frac{1}{4} I\left(2\|B\|_{F}^{2}+\operatorname{Tr}^{2} B\right) \\
+&+\frac{1}{4}(J-3 I)\|D\|_{F}^{2} .
+\end{aligned}
+\)
+
+其中
+\(
+I=\int_{B_{r}(0)} x_{1}^{2} x_{2}^{2} d x, \quad J=\int_{B_{r}(0)} x_{1}^{4} d x
+\)
+\(
+k=\int_{B_{r}(0)} x_{1}^{2} d x \quad\|D\|_{F}=\left(\sum_{i} b_{i i}^{2}\right)^{\frac{1}{2}}
+\)
+\(
+\text { (2) }=\int_{B_{r}(0\rangle}\left(g^{\top} x\right)^{2} d x=k\|g\|_{2}^{2}
+\)
+
+$\text { (3) }=0$
+
+$\text { (4) }=V_{2} r^{n} c^{2}$
+
+$\text { (5) }=\int_{B_{r}(0)}\left(x^{\top} B x\right)\left(g^{\top} x\right) d x=0$
+
+$\text { (6) }=\int_{B_{r} (0) }\left(x^{\top} B_{X}\right)(c)=c K T_{r}B$
+
+$\text { (7) }=\int_{B_{r}(0) }\quad 2cg^{\top} xdx=0$
+
+$\text { (8) }=0$
+
+
+所以
+
+\(
+\mid Q_{H^{0}}^{2}\left(\beta_{r}(0)\right)=\frac{1}{4} I\left(2\|B\|_{F}^{2}+T_{r}^{2} B\right)+\frac{1}{4}(J-3 I)
+\)
+\(
+\|D\|_{F}^{2}+K\left(\|g\|_{2}^{2}+cT_{r} B\right)+V_{2} r^{n} c^{2}
+\)
+
+注意(下面公式中不知道 $\tau$还是啥打成了$\tau$)
+
+
+
+
+\(
+\begin{aligned}
+I &=\frac{\tau\left(\frac{3}{2}\right)^{2} \tau\left(\frac{n}{2}\right)}{\left(\tau\left(\frac{1}{2}\right)\right)^{2} \tau\left(\frac{n}{2}+2\right)} \cdot \frac{n}{n+4} v_{2} r^{n+4} \\
+&=\frac{1}{4} \times \frac{1}{\left(\frac{n}{2}+1\right)\left(\frac{n}{2}\right)} \times \frac{n}{n+4} v_{2} r^{n+4} \\
+&=\frac{1}{(n+4)(n+2)} v_{2} r^{n+4}
+\end{aligned}
+\)
+
+\(
+\begin{aligned}
+J &=\frac{\tau\left(\frac{5}{2}\right) \tau\left(\frac{1}{2}\right) \tau\left(\frac{n}{2}\right)}{\left(\tau\left(\frac{1}{2}\right)\right)^{2} \tau\left(\frac{n}{2}+2\right)} \cdot \frac{n}{n+4} v_{2} r^{n+4} \\
+&=\frac{3}{2} \times \frac{1}{2} \times \frac{1}{\left(\frac{n}{2}+1\right)\left(\frac{n}{2}\right)} \cdot \frac{n}{n+4} v_{2} r^{n+4} \\
+&=\frac{3}{(n+4)(n+2)} v_{2} r^{n+4}=3 I
+\end{aligned}
+\)
+
+\(
+\begin{aligned}
+K &=\frac{\tau\left(\frac{3}{2}\right) \tau\left(\frac{1}{2}\right) \tau\left(\frac{n}{2}\right)}{\left(\tau\left(\frac{1}{2}\right)\right)^{2} \tau\left(\frac{n}{2}+1\right)} \cdot \frac{n}{n+2} \nu_{2} r^{n+2} \\
+&=\frac{1}{2} \times \frac{2}{n} \times \frac{n}{n+2} v_{2} r^{n+2} \\
+&=\frac{1}{n+2} v_{2} r^{n+2}
+\end{aligned}
+\)
+
+所以
+\(
+|Q|_{H^{0}\left(B_{r}(0)\right)}^{2}=V_{2} r^{n}
+\left(\frac{r^{4}}{4(n+4)(n+2)}\left(2\|B\|_{F}^{2}+\operatorname{Tr}^{2} B\right)\right.
+\)
+\(
+\left.+c^{2}+\frac{r^{2}}{n+2}\left(\|g\|_{2}^{2}+c \operatorname{Tr} B\right)\right)
+\)
+
+(半范数)
+
+\(
+\begin{array}{l}
+|Q|_{H^{1}}^{2}(B_{r}(0))=\int_{B_{r} (0)}\left\|B_{x}+g\right\|_{2}^{2} d x \\
+=\int _{B_{r}(0)}\left(x^{\top} B^{2} x+\|g\|_{2}^{2}\right) d x
+\end{array}
+\)
+
+\(
+\begin{array}{l}
+=K\|B\|_{F}^{2}+\|g\|_{2}^{2} \cdot V_{2} r^{n} \\
+=V_{2} r^{n}\left(\frac{r^{2}}{n+2}\|B\|_{F}^{2}+\|g\|_{2}^{2}\right)
+\end{array}
+\)
+\(
+|Q|_{H^{2}\left(B_{r}(0)\right)}^{2}=\int_{B_{r}(0)}\|B\|_{f}^{2} d x=V_{2} r^{n}\|B\|_{F}^{2}
+\)
+
+(半范数)
+
+$H^{1}$范数
+\(
+|Q|_{H^{\prime}}^{2}=v_{2} r^{n}\left(\left(\frac{r^{4}}{2 (n +4)(n+2)}+\frac{r^{2}}{n+2}\right)\|B\|_{F}^{2}+\right.
+\)
+\(
+\left.\left(\frac{r^{2}}{n+2}+1\right)\|g\|_{2}^{2}+\frac{r^{2}}{4(n+4)(n+2)} T_{r}^{2} B+c^{2}+\frac{c r^{2}}{n+2} \operatorname{Tr} B\right)
+\)
+$H^{2}$范数
+\(
+|Q|_{H^{2}}^{2}=V_{2} r^{n}\left(\left(\frac{r^{4}}{2(n+4)(n+2)}+\frac{r^{2}}{n+2}+1\right)\|B\|_{F}^{2}+\right.
+\)
+\(
+\left.\left(\frac{r^{2}}{n+2}+1\right)\|g\|_{2}^{2}+\frac{r^{2}}{4 (n+4)(n+2)} \operatorname{Tr}^{2} B+c^{2}+\frac{c r^{2}}{n+2} \operatorname{Tr} B\right)
+\)
+
+
 
 \begin{comment}
 

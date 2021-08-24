@@ -168,6 +168,17 @@ Task 1-3：(一定要是又一个重新的新文件夹)
 
 [file/NEWUOA_1-15(817).zip  NEWUOA-matlab-Codes-V0.93]
 
+[file/NEWUOAMethod(821).zip  NEWUOA-matlab-Codes-V0.94]
+
+[file/NEWUOAMethod(822).zip  NEWUOA-matlab-Codes-V0.95]
+
+[file/NEWUOAMethod(823).zip  NEWUOA-matlab-Codes-V0.96]
+
+
+
+问题：
+
+举例就是，比如一开始的Step1中，完成了计算我们会调用Step2，不过由于Step1还没有结束(在计算Step1中的Step2)，所以Steps1中的变量仍然被储存着。这样随着不断的循环，就会有很多很多的Step没有被关闭，matlab会储存那些冗余的变量
 
 ~~~
 
@@ -265,9 +276,38 @@ For quadratic model function $Q(x)$
 
 [file/wildowd.pdf Zero-Order, Black-Box, Derivative-Free, and Simulation-Based Optimization]
 
+== Others
+
+目标函数写出来之后凑$\alpha_{0}, \alpha_{1}, \alpha_{2}$然后写出KKT条件
+
+
+$M: \quad G \times G \rightarrow G$
+
+
+$\tau: \quad G \rightarrow G$
+
+$[,] .$ (1) $[x, y]=-[y, x]$
+
+
+(2)双线性性
+
+
+(3) $[[x, y], z]+[[y, z] x]+[[z, x], y)=0$
+
+
+例子.李群: $G L(n, C) \cdot S L(2, c)$
+
+
+李代数:$g((n, C), \quad s L(2, C)$
 
 
 
+
+
+
+
+== Fokker-Planck equation
+[xpc-gzr.pdf Related paper]\n
 
 
 
