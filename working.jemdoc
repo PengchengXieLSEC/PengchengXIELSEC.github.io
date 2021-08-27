@@ -10,7 +10,7 @@
 
 3. 倒数第二张图的h(x)(或者说g(x))本来是100倍罚函数，试试改成10倍
 
-4. 每张图保存晚eps以后再重新保存一下fig格式
+4. 每张图保存完eps以后再重新保存一下fig格式
 ~~~
 {4}{table}{TABLENAME}
   | 所有图（如[readme/task1-2.txt -P]所示） |   Read_me.txt  |  新Read_me.txt （两种噪声合并后） | F90中的中文注释 ||
