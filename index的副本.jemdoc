@@ -1,0 +1,73 @@
+# jemdoc: menu{MENU}{index.html}, nofooter
+==Pengcheng Xie
+
+~~~
+{}{img_left}{bio.jpg}{alt text}{130}{130}
+PhD candidate,\n 
+[http://lsec.cc.ac.cn/ LSEC], [http://www.amss.ac.cn/ AMSS], \n
+Phone: \+86 13203866776\n
+E-mail: 
+
+xpc@lsec.cc.ac.cn\n
+9608186@qq.com\n
+xiepengcheng0803@gmail.com\n
+
+
+
+
+Address: AMSS CAS 55 Zhongguancun East Road, Haidian District, Beijing
+~~~
+
+~~~
+[optim.txt optim html]
+~~~
+
+== About me
+I am currently a Ph.D Candidate of Computing Mathematics at the Chinese Academy of Sciences and research affiliate at the [http://lsec.cc.ac.cn/ LSEC]. Supervisor: Prof. Ya-xiang Yuan ([http://lsec.cc.ac.cn/~yyx/ Homepage]).
+
+== Research
+My research interests include
+- Derivative-free Optimization
+- Subspace Method
+- Machine Learning
+
+=== Recent Publications
+. Pengcheng Xie, Molei Tao, [https://ieeexplore.ieee.org/document/8814709 \"Parametric Resonant Control of Macroscopic Behaviors of Multiple Oscillators\"], 2019 American Control Conference (ACC), Philadelphia, PA, USA, 2019, pp. 1898-1905, doi: 10.23919/ACC.2019.8814709.]
+. Nian-wen Si, Heng-jun Wang, Wei Li, Yi-dong Shan, and Pengcheng Xie  [http://www.jsjkx.com/EN/10.11896/j.issn.1002-137X.2018.04.009 \"Chinese Part-of-speech Tagging Model Using Attention-based LSTM\"](in Chinese), Computer Science, 2018, 45(4): 66-70, 82.
+. Pengcheng Xie, [math-blade.pdf \"Mathematics: The blade of modern warfare\"](in Chinese), Youth, ISSN: 1002-6835, 2016, 17:98, 128.
+. Miao Sun, Fuming Wang, Pengcheng Xie,and Wendong Zhu, \"Evaluation of Network Information Security\"(in Chinese), Journal of Cryptology and Information Security, 2016, 28(5).
+. Fan Chen, Pengcheng Xie, [https://mall.cnki.net/magazine/article/JYJA202116009.htm Acquire the courage to pursue the ultimate](in Chinese), Guangming Daily: Educator 2021, 16, 18.
+
+
+
+
+[cv.pdf A brief cv].
+
+
+
+== Conference
+. President of [http://lsec.cc.ac.cn/~siamstuc/AN2021/ the 10th CAS SIAM Student Chapter Annual Meeting], see [https://m.gmw.cn/baijia/2021-06/28/34953896.html news]
+. Organizer of [https://mp.weixin.qq.com/s/6ivj2o3AavHcatiJSTzIzQ the 1th CAS Student Mathematical Conference], 
+  see [CAS-math-1.pdf Conference materials] and [https://mp.weixin.qq.com/s/_Us047CZM_jlVBKAl2nVOQ News]
+. Talker of [Tsinghua-1.pdf Tsinghua PhD Academic Conference], see [Tsinghua-2.pdf] for our works 
+. Talker of [UCAS_Y.jpg UCAS Youth Talk]  one of the 8 student talkers, and the representative of Math.
+. 2021年江苏省研究生“数据驱动的优化理论、算法及应用”暑期学校，2021年7月
+. 2020年北京大学应用数学讲习班, 2020年7月
+. SIAM AN20 Student Chapter Mixer, Jul. 8, 2020
+
+== Working on
+. [working-on.txt Updating details]
+. [howtocite.txt How to cite]
+
+== Other
+. [pjo-sample.tex pjo-sample]
+. [http://yokohamapublishers.jp/pjo.html pjo_website]
+. [https://blog.csdn.net/qq_41612863/article/details/107352049 Data-driven]
+. [special_issue.jpg issue]
+. [http://csiam.org.cn/submission CSIAM]
+. [https://mp.weixin.qq.com/s/slnxcIw_NJmXkgIVktpT1g CSIAM student]
+
+
+
+
+
