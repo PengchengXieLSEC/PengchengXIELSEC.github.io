@@ -1,0 +1,66 @@
+# jemdoc: menu{MENU}{working.html}, nofooter
+
+== Working List
+
+修改task1-1的图(点击这里下载看看是哪些图：[待修改的图.zip 待修改的图]):
+
+1. 让所有的图黑白打印也可以被清晰区分(通过改变线的形状，可参照：[https://blog.csdn.net/qq_40969467/article/details/90758281 点击该参考链接]), 在改变形状的同时也要同时保留彩色，使得颜色、形状均不相同，并且不同的图里同一个算法对应的线形和颜色要完全一致.
+
+2. 倒数第二张图（4.jpeg）的纵坐标的g改成h
+
+3. 倒数第二张图（4.jpeg）的h(x)(或者说g(x))本来是100倍罚函数，试试改成10倍，让NWQUOA-P和NEWUOA-N的优势更明显
+
+4. 每张图保存完eps以后再重新保存一下fig格式，都各自保存好
+~~~
+{4}{table}{TABLENAME}
+  | 所有图（如[readme/task1-2.txt -P]所示） |   Read_me.txt  |  新Read_me.txt （两种噪声合并后） | F90中的中文注释 ||
+Task 1-1 | Y | [readme/new/task1.txt Y]  | N |  [file/newuoas-p完美板.F90 Y]   || 
+~~~
+
+== 子昊：
+
+
+手写稿如下：
+
+
+[file/2个思考/L2-notes.pdf 第一部分]
+
+[file/照片/1.jpg 第二部分-page: 1]
+
+[file/照片/2.jpg 第二部分--page: 2]
+
+[file/照片/3.jpg 第二部分--page: 3]
+
+[file/照片/4.jpg 第二部分-page: 4]
+
+[file/照片/5.jpg 第二部分-page: 5]
+
+[file/照片/6.jpg 第二部分-page: 6]
+
+[file/照片/7.jpg 第二部分-page: 7]
+
+[file/照片/8.jpg 第二部分-page: 8]
+
+[file/照片/9.jpg 第二部分-page: 9]
+
+[file/照片/10.jpg 第二部分-page: 10]
+
+[file/照片/11.jpg 第二部分-page: 11]
+
+[file/照片/12.jpg 第二部分-page: 12]
+
+[file/照片/13.jpg 第二部分-page: 13]
+
+
+
+Latex初稿如下：
+
+[file/照片/paperold.zip 解压后点开运行c.tex]
+
+
+
+最终整理到如下的latex模版里：
+
+[file/照片/sn-article-template.zip 最终的文件模版]
+
+
