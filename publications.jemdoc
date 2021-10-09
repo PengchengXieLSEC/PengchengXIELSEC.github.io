@@ -1,24 +1,2 @@
 # jemdoc: menu{MENU}{index.html}, nofooter
-==Pengcheng Xie
-
-~~~
-{}{img_left}{bio.jpg}{alt text}{131}{160}
-PhD,\n [http://lsec.cc.ac.cn/ LSEC], \n
-Phone: \+86 13203866776\n
-E-mail: xpc@lsec.cc.ac.cn
-~~~
-
-== About me
-I am currently an Ph.D Candident of Computing Mathematics at the Chinese Academy of Sciences and research affiliate at the [http://lsec.cc.ac.cn/ LSEC].
-
-== Research
-My research interests include
-- Derivative-free Optimization
-- Machine Learning
-- Subspace Method
-
-=== Recent Publications
-. Pengcheng Xie, Molei Tao, \"Parametric Resonant Control of Macroscopic Behaviors of Multiple Oscillators\", 2019 American Control Conference (ACC), Philadelphia, PA, USA, 2019, pp. 1898-1905, doi: 10.23919/ACC.2019.8814709.
-
-[cv.pdf A brief cv].
 
