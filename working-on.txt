@@ -1,5 +1,0 @@
-1. NEWUOA-P
-
-2. SUSD-TR
-
-3. To prove that the Two-layer neural networks can provide fully linear model function, using the Direct Approximation Theorem.

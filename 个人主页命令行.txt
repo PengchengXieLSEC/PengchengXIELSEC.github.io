@@ -1,4 +1,0 @@
-python2 jemdoc.py index.jemdoc                                          
-git add .
-git commit -m "First Commit"
-git push

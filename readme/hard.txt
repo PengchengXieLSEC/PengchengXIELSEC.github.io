@@ -1,2 +1,0 @@
-打开桌面文件wzp->打开文件夹newuoas->打开文件夹newuoas-hard。主要程序简介：在整个Hard-newuoa文件夹中，main.m为主程序文件，main.m文件中的FLAG_map表示Hard_newuoa算法选取投影的方式、dim表示求解问题的维数，有1和2两种取法，solvers里面的为求解算法，problems里面的为待求解问题，F.m为调用每个问题在给定点函数值的一个接口，testalg.m为算法求解问题子程序，testalg.m中的主要参数有maxfun(函数值最大使用次数)、tol(求解精度)、rhoend(rho的终止条件，即当rho=rhoend时终止算法)和xr(算法求解问题的初始点)
-运行：运行程序只需在matlab主界面运行main.m文件即可，输出的数据文件为输出：X_data.csv(每个算法求解每个问题的解)、F_data.csv(X_data.csv文件中解对应的函数值)、Flag_data.csv(表示对应算法是否求解出对应的问题，0表示未求解出，1表示求解出)和NF_data.csv(每个算法求解每个问题所使用函数值次数)，输出的图像文件被存于resuls文件中的最新生成的文件夹之中
