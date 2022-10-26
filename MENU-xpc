@@ -1,10 +1,12 @@
 menu
-    Home                [index.html]
-    Research			[research.html]
-    Talks         [talks.html]
-    Courses				[courses.html]
-    Activities			[activities.html]
-    working			[working.html]
+    Home                [index-xpc.html]
+    Research			[research-xpc.html]
+    Talks         [talks-xpc.html]
+    Courses				[courses-xpc.html]
+    Activities			[activities-xpc.html]
+    Working			[working-xpc.html]
+    Publications			[publications-xpc.html]
+
 	
 usefull links I
    Pengcheng's Github  		[https://github.com/pengchengxielsec]

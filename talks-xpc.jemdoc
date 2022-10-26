@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{talks.html}, nofooter
+# jemdoc: menu{MENU-xpc}{talks-xpc.html}, nofooter
 == Talks
 
 == Subspace methods

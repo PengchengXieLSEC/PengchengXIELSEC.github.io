@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{working.html}, nofooter
+# jemdoc: menu{MENU-xpc}{working.html}, nofooter
 
 == Working List
 
@@ -308,9 +308,35 @@ $[,] .$ (1) $[x, y]=-[y, x]$
 
 
 
-
 == Fokker-Planck equation
 [xpc-gzr.pdf Related paper]\n
+
+
+
+== Future work
+LASSO's quadratic model\n
+
+Frequency Principle of the Trust region derivative-free method\n
+
+Random search of Nesterov
+
+给定一些数据点后在最优化（最优点、最优值接近）的意义下的逼近（包括传统逼近和神经网络逼近）
+
+Molei‘s work
+
+
+== Need to do
+
+1. 给所有的向量、矩阵范数加脚标\n
+
+2. 详细看所比较的算法\n
+
+3. xi的确定要细致看\n
+
+4. Structure improvement step \n
+
+5. 加上Optimization Dynamics中间省去的引理
+
 
 
 

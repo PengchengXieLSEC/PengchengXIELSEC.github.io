@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}, nofooter
+# jemdoc: menu{MENU-xpc}{index.html}, nofooter
 ==NEWUOA-P
 
 Download [https://github.com/PengchengXieLSEC/NEWUOA-P.F90 NEWUOA-P]

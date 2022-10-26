@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}, nofooter
+# jemdoc: menu{MENU-xpc}{index.html}, nofooter
 ==Pengcheng Xie
 
 ~~~
@@ -19,6 +19,8 @@ My research interests include
 
 === Recent Publications
 . Pengcheng Xie, Molei Tao, \"Parametric Resonant Control of Macroscopic Behaviors of Multiple Oscillators\", 2019 American Control Conference (ACC), Philadelphia, PA, USA, 2019, pp. 1898-1905, doi: 10.23919/ACC.2019.8814709.
+
+. 基于强化学习和攻防博弈的智能防御决策方法及装置, 发明专利, 2021, 第4作者, 专利号: CN201910292304.2
 
 [cv.pdf A brief cv].
 
