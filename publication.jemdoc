@@ -2,20 +2,26 @@
 == Preprints & Publications 
 
 
-
-- *P. Xie* and Y.-x. Yuan, \"Derivative-free optimization with transformed objective functions (DFOTO) and the algorithm based on least Frobenius norm updating quadratic model\", 2023.\n 
-doi: [https://doi.org/10.48550/arXiv.2302.12021 https://doi.org/10.48550/arXiv.2302.12021]
+- *P. Xie* and Y.-x. Yuan,  \"Derivative-free optimization with transformed objective functions (DFOTO) and the algorithm based on least Frobenius norm updating quadratic model\", 2023.\n 
+doi: [https://doi.org/10.48550/arXiv.2302.12021 https://doi.org/10.48550/arXiv.2302.12021], [https://arxiv.org/pdf/2302.12021.pdf \[Link\]]
 
 - *P. Xie* and Y.-x. Yuan, \"Least H^2 norm updating quadratic interpolation model function for derivative-free trust-region algorithms\", 2023. \n
-doi: [https://doi.org/10.48550/arXiv.2302.12017 https://doi.org/10.48550/arXiv.2302.12017]
+doi: [https://doi.org/10.48550/arXiv.2302.12017 https://doi.org/10.48550/arXiv.2302.12017], [https://arxiv.org/pdf/2302.12017.pdf \[Link\]]
 
 
-- *P. Xie* and Y.-x. Yuan, \"A derivative-free optimization algorithm combining line-search and trust-region techniques\", 2023. (in English, accepted by [https://www.springer.com/journal/11401 Chinese Annals of Mathematics, Series B])\n
+- *P. Xie* and Y.-x. Yuan, \"A derivative-free optimization algorithm combining line-search and trust-region techniques\", 2023. \n
+(in English, accepted by [https://www.springer.com/journal/11401 Chinese Annals of Mathematics, Series B])\n
 
 
 - *P. Xie*, \"A derivative-free trust-region method for optimization on the ellipsoid\", 2023. \n
 accepted by [http://www.icacse.net/ 2023 International Conference on Advances in Computer Science and Engineering Technology (ACSE2023)] \n
 published by [https://iopscience.iop.org/journal/1742-6596 Journal of Physics: Conference Series (JPCS)]\n
+
+
+
+
+- *P. Xie*, \"A note on sufficient conditions for distance reduction between the minimizers of non-convex quadratic functions in the trust region\", 2023. \n
+under review \n
 
 
 - Lin Li and *P. Xie*, \"An efficient derivative-free method for finding multiple solutions\", 2023. \n
@@ -24,39 +30,46 @@ to be posted on arXiv \n
 
 
 
-- *P. Xie* and M. Tao, \"Parametric resonant control of macroscopic behaviors of multiple oscillators\", in 2019 American Control Conference (ACC), 2019, pp. 1898–1905. \n 
-doi: 10.23919/ACC.2019.8814709 \n
-[https://ieeexplore.ieee.org/document/8814709 https://ieeexplore.ieee.org/document/8814709]
-
 - S. Li, *P. Xie*, Z. Zhou, et al., \"Simulation of interaction of folded waveguide space traveling wave tubes with derivative-free mixedinteger based NEWUOA algorithm\", in 2021 7th International Conference on Computer and Communications (ICCC), 2021, pp. 1215–1219. \n
 doi: 10.1109/ICCC54389.2021.9674410 \n
-[https://ieeexplore.ieee.org/document/9674410 https://ieeexplore.ieee.org/document/9674410]
+[https://ieeexplore.ieee.org/document/9674410 https://ieeexplore.ieee.org/document/9674410], [https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9674410 \[Link\]]
 
+
+- *P. Xie* and M. Tao, \"Parametric resonant control of macroscopic behaviors of multiple oscillators\", in 2019 American Control Conference (ACC), 2019, pp. 1898–1905. \n 
+doi: 10.23919/ACC.2019.8814709 \n
+[https://ieeexplore.ieee.org/document/8814709 https://ieeexplore.ieee.org/document/8814709], [https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8814709 \[Link\]]
+
+
+- N. Si, H. Wang, W. Li, Y. Shan, and *P. Xie*, \"Chinese part-of-speech tagging model using attention-based LSTM\", Computer Science, vol. 45, no. 4, pp. 66–70, 2018. \n 
+url: [https://www.jsjkx.com/EN/Y2018/V45/I4/66 https://www.jsjkx.com/EN/Y2018/V45/I4/66], [https://www.jsjkx.com/EN/Y2018/V45/I4/66 \[Link\]]
 
 
 
 - *P. Xie*, \"A note on the invariant distribution of a stochastic dynamical system\", 2023. \n
-doi: [https://chinaxiv.org/abs/202304.01048V1 10.12074/202304.01048] 
-
-
-- *P. Xie*, \"The modeling and optimization of building the multi-dam system on Zambezi river\", 2023. \n
-doi: [https://chinaxiv.org/abs/202304.01057V1 10.12074/202304.01057] 
-
+doi: [https://chinaxiv.org/abs/202304.01048V1 10.12074/202304.01048], [https://chinaxiv.org/user/download.htm?id=52723 \[Link\]] 
 
 
 - H. Hu, Y. Zhang, Q. Leng, and *P. Xie*, \"Method and device for constructing network security domain knowledge map for dynamic threat analysis\", 2019.\n  
-Patent publication number: CN110113314A
-
-- N. Si, H. Wang, W. Li, Y. Shan, and *P. Xie*, \"Chinese part-of-speech tagging model using attention-based LSTM\", Computer Science (in Chinese), vol. 45, no. 4, pp. 66–70, 2018. \n 
-url: [https://www.jsjkx.com/EN/Y2018/V45/I4/66   https://www.jsjkx.com/EN/Y2018/V45/I4/66]
+Patent publication number: CN110113314A, [https://patents.google.com/patent/CN110113314A/en?oq=CN110113314A https://patents.google.com/patent/CN110113314A/en?oq=CN110113314A], [https://patentimages.storage.googleapis.com/b5/ba/37/36a1e5f38df52b/CN110113314A.pdf \[Link\]]
 
 
 
-- F. Chen and *P. Xie*, \"Gain the courage to pursue academic excellence\", Educator, no. 16, p. 18, 2021.\n  url: [http://qikan.cqvip.com/Qikan/Article/Detail?id=00002GGD559G7JP0MNDG3JP1M7R http://qikan.cqvip.com/Qikan/Article/Detail?id=00002GGD559G7JP0MNDG3JP1M7R] 
+
+
+
+- *P. Xie*, \"The modeling and optimization of building the multi-dam system on Zambezi river\", 2023. \n
+doi: [https://chinaxiv.org/abs/202304.01057V1 10.12074/202304.01057], [https://chinaxiv.org/user/download.htm?id=52728 \[Link\]] 
+
+
 
 
 - *P. Xie*, \"Mathematics: the sword of modern warfare\", Youth Times (in Chinese), no. 17, pp. 98, 128, 2016. \n 
-url: [https://d.wanfangdata.com.cn/periodical/ https://d.wanfangdata.com.cn/periodical/]
+url: [https://d.wanfangdata.com.cn/periodical/ https://d.wanfangdata.com.cn/periodical/], [https://d.wanfangdata.com.cn/periodical/qnsd201617072 \[Link\]]
+
+
+- F. Chen and *P. Xie*, \"Gain the courage to pursue academic excellence\", Educator, no. 16, p. 18, 2021.\n  url: [http://qikan.cqvip.com/Qikan/Article/Detail?id=00002GGD559G7JP0MNDG3JP1M7R http://qikan.cqvip.com/Qikan/Article/], [http://qikan.cqvip.com/Qikan/Article/ReadIndex?id=00002GGD559G7JP0MNDG3JP1M7R&info=jmPGjViCgLNJlou9pkXiXBJumjzPu6n2GYsSDL9ITpX9BR2Ua%2bW0uxWFIo2KP8FvIR%2bHfZQlRLE%3d \[Link\]] 
+
+
 
 
 

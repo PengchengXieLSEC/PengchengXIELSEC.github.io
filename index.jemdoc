@@ -2,46 +2,48 @@
 ==Software & Codes 
 
 ~~~
-- Download [https://github.com/PengchengXieLSEC/least_H2_norm_updating_model least H^2 norm updating model]
+- least H^2 norm updating model [https://github.com/PengchengXieLSEC/least_H2_norm_updating_model \[Link\]]
 
-- Download [https://github.com/PengchengXieLSEC/NEWUOA-Trans NEWUOA-Trans]
+- NEWUOA-Trans [https://github.com/PengchengXieLSEC/NEWUOA-Trans \[Link\]]
 
-- Download [https://github.com/PengchengXieLSEC/NEWUOA-Trans-Matlab-Version-1.0 NEWUOA-Trans-Matlab-Version-1.0] 
+- NEWUOA-Trans-Matlab-Version-1.0 [https://github.com/PengchengXieLSEC/NEWUOA-Trans-Matlab-Version-1.0 \[Link\]] 
 
-- Download [https://github.com/PengchengXieLSEC/NEWUOA-Trans-Matlab-Version-2.0 NEWUOA-Trans-Matlab-Version-2.0]
+- NEWUOA-Trans-Matlab-Version-2.0 [https://github.com/PengchengXieLSEC/NEWUOA-Trans-Matlab-Version-2.0 \[Link\]]
 
-- Download [https://ww2.mathworks.cn/matlabcentral/fileexchange/123845-newuoa-trans-matlab-version-2-0?s_tid=FX_rc1_behav NEWUOA-Trans-Matlab-Version-2.0 (Link 2)]
+- NEWUOA-Trans-Matlab-Version-2.0 (MathWorks Link) [https://ww2.mathworks.cn/matlabcentral/fileexchange/123845-newuoa-trans-matlab-version-2-0?s_tid=FX_rc1_behav \[Link\]]
 
-- Download [https://github.com/PengchengXieLSEC/NEWUOA-Trans-Matlab-Version-3.0 NEWUOA-Trans-Matlab-Version-3.0]
+- NEWUOA-Trans-Matlab-Version-3.0 [https://github.com/PengchengXieLSEC/NEWUOA-Trans-Matlab-Version-3.0 \[Link\]]
 
-- Download [https://github.com/PengchengXieLSEC/NEWUOA-matlab-V1.0- NEWUOA-Matlab-Version-1.0], [https://ww2.mathworks.cn/matlabcentral/fileexchange/121418-newuoa-matlab-version-2-0 NEWUOA-Matlab-Version-2.0]
+- NEWUOA-Matlab-Version-1.0 [https://github.com/PengchengXieLSEC/NEWUOA-matlab-V1.0- \[Link\]], NEWUOA-Matlab-Version-2.0 (MathWorks Link) [https://ww2.mathworks.cn/matlabcentral/fileexchange/121418-newuoa-matlab-version-2-0 \[Link\]]
 
-- Download [https://github.com/PengchengXieLSEC/NEWUOA-py NEWUOA-py]
+- NEWUOA-py [https://github.com/PengchengXieLSEC/NEWUOA-py \[Link\]]
 
-- Download [https://ww2.mathworks.cn/matlabcentral/fileexchange/123640-bobyqa-matlab-version-1-0 BOBYQA-Matlab-Version-1.0] 
+- BOBYQA-Matlab-Version-1.0 (MathWorks Link) [https://ww2.mathworks.cn/matlabcentral/fileexchange/123640-bobyqa-matlab-version-1-0 \[Link\]] 
 
-- Download [https://github.com/PengchengXieLSEC/BOBYQA-Python-Version-1.0 BOBYQA-Python-Version-1.0], [https://github.com/PengchengXieLSEC/BOBYQA-Python-Version-2.0 BOBYQA-Python-Version-2.0]
+- BOBYQA-Python-Version-1.0 [https://github.com/PengchengXieLSEC/BOBYQA-Python-Version-1.0 \[Link\]], BOBYQA-Python-Version-2.0 [https://github.com/PengchengXieLSEC/BOBYQA-Python-Version-2.0 \[Link\]]
 
-- Download [https://github.com/PengchengXieLSEC/SUSD-TR SUSD-TR method (Python codes)]
-
-- Download [https://github.com/PengchengXieLSEC/Optimality-Model-Examples Optimality Model Examples] 
+- SUSD-TR method (Python codes) [https://github.com/PengchengXieLSEC/SUSD-TR \[Link\]]
 
 
-- Download [https://github.com/PengchengXieLSEC/Test-codes-for-simple-direct-search-method Test codes for simple direct search method]
-
-
-- Download [https://github.com/PengchengXieLSEC/testing-Trust-region-method-based-on-fully-quadratic-models Test codes for trust region method based on fully quadratic models]
+- Test-codes-for-SUSD-TR [https://github.com/PengchengXieLSEC/Test-codes-for-SUSD-TR \[Link\]]
 
 
 
-
-- Download [https://github.com/PengchengXieLSEC/Combination-of-trust-region-and-direct-search Combination of trust-region and direct search]
-
-
-- Download [https://github.com/PengchengXieLSEC/Test-codes-for-SUSD-TR Test-codes-for-SUSD-TR]
+- Optimality Model Examples [https://github.com/PengchengXieLSEC/Optimality-Model-Examples \[Link\]] 
 
 
-- Download [https://github.com/PengchengXieLSEC/GDTRWR  Global derivative-free trust-region method with warm restarts (GDTRWR)] (to be released)
+- Test codes for simple direct search method [https://github.com/PengchengXieLSEC/Test-codes-for-simple-direct-search-method \[Link\]]
+
+
+- Test codes for trust region method based on fully quadratic models [https://github.com/PengchengXieLSEC/testing-Trust-region-method-based-on-fully-quadratic-models \[Link\]]
+
+
+
+
+- Combination of trust-region and direct search [https://github.com/PengchengXieLSEC/Combination-of-trust-region-and-direct-search \[Link\]]
+
+
+- Global derivative-free trust-region method with warm restarts (GDTRWR) [https://github.com/PengchengXieLSEC/GDTRWR \[Link\]] (to be released)
 
 
 
