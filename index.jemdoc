@@ -56,10 +56,8 @@
 - Global derivative-free trust-region method with warm restarts (GDTRWR) [https://github.com/PengchengXieLSEC/GDTRWR \[Link\]] (to be released)
 ~~~
 
-The codes above are copyrighted by Pengcheng Xie.
-
-If you use or modify them in a paper, please cite our corresponding papers or this codes website. 
-
+The codes above are copyrighted by Pengcheng Xie.\n 
+If you use or modify them in a paper, please cite our corresponding papers or this codes website. \n 
 Contact: xpc@lsec.cc.ac.cn
 
 
