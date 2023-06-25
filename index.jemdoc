@@ -56,6 +56,14 @@
 - Global derivative-free trust-region method with warm restarts (GDTRWR) [https://github.com/PengchengXieLSEC/GDTRWR \[Link\]] (to be released)
 ~~~
 
+
+~~~
+- Codes for the paper entitled \"A new derivative-free method using an improved under-determined quadratic interpolation model\" [https://github.com/PengchengXieLSEC/A-New-DFO-Method-Using-an-Improved-Model \[Link\]]
+~~~
+
+
+
+
 The codes above are copyrighted by Pengcheng Xie.\n 
 If you use or modify them in a paper, please cite our corresponding papers or this codes website. \n 
 Contact: xpc@lsec.cc.ac.cn
