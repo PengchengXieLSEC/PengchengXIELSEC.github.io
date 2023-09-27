@@ -2,8 +2,14 @@
 == Preprints & Publications 
 
 
+
+
+- *P. Xie* and Y.-x. Yuan, \"A New Two-dimensional Model-based Subspace Method for Large-scale Unconstrained Derivative-free Optimization: 2D-MoSub\", 2023 \n
+(submitted)\n
+doi: [https://doi.org/10.48550/arXiv.2309.14855 https:\/\/doi.org\/10.48550\/arXiv.2309.14855], [https://arxiv.org/pdf/2309.14855.pdf \[Link\]]
+
 - *P. Xie* and Y.-x. Yuan, \"A new derivative-free method using an improved under-determined quadratic interpolation model\", 2023 \n
-(submitted)
+(under review)
 
 
 
@@ -15,8 +21,8 @@ doi: [https://doi.org/10.48550/arXiv.2302.12021 https:\/\/doi.org\/10.48550\/arX
 doi: [https://doi.org/10.48550/arXiv.2302.12017 https:\/\/doi.org\/10.48550\/arXiv.2302.12017], [https://arxiv.org/pdf/2302.12017.pdf \[Link\]]
 
 
-- *P. Xie* and Y.-x. Yuan, \"A derivative-free optimization algorithm combining line-search and trust-region techniques\", 2023 \n
-(in English, accepted by [https://www.springer.com/journal/11401 Chinese Annals of Mathematics, Series B])\n
+- *P. Xie* and Y.-x. Yuan, \"A derivative-free optimization algorithm combining line-search and trust-region techniques\" (in English） \n 
+[https://www.springer.com/journal/11401 Chinese Annals of Mathematics, Series B], 44(5), 719–734, 2023
 
 
 - *P. Xie*, \"A derivative-free trust-region method for optimization on the ellipsoid\", 2023 \n
