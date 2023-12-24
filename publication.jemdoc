@@ -5,7 +5,7 @@
 
 
 - *P. Xie* and Y.-x. Yuan, \"A new two-dimensional model-based subspace method for large-scale unconstrained derivative-free optimization: 2D-MoSub\", 2023 \n
-(submitted)\n
+(under review)\n
 doi: [https://doi.org/10.48550/arXiv.2309.14855 https:\/\/doi.org\/10.48550\/arXiv.2309.14855], [https://arxiv.org/pdf/2309.14855.pdf \[Link\]]
 
 - *P. Xie* and Y.-x. Yuan, \"A new derivative-free method using an improved under-determined quadratic interpolation model\", 2023 \n
@@ -15,7 +15,7 @@ doi: [https://doi.org/10.48550/arXiv.2309.14855 https:\/\/doi.org\/10.48550\/arX
 
 - *P. Xie* and Y.-x. Yuan,  \"Derivative-free optimization with transformed objective functions (DFOTO) and the algorithm based on the least Frobenius norm updating quadratic model\", 2023\n 
 doi: [https://doi.org/10.48550/arXiv.2302.12021 https:\/\/doi.org\/10.48550\/arXiv.2302.12021], [https://arxiv.org/pdf/2302.12021.pdf \[Link\]]\n
-(accepted after minor revision by [https://www.jorsc.shu.edu.cn/EN/2194-668X/home.shtml Journal of the Operations Research Society of China])
+(accepted by [https://www.jorsc.shu.edu.cn/EN/2194-668X/home.shtml Journal of the Operations Research Society of China], in press)
 
 - *P. Xie* and Y.-x. Yuan, \"Least H^2 norm updating quadratic interpolation model function for derivative-free trust-region algorithms\", 2023 \n
 doi: [https://doi.org/10.48550/arXiv.2302.12017 https:\/\/doi.org\/10.48550\/arXiv.2302.12017], [https://arxiv.org/pdf/2302.12017.pdf \[Link\]]
@@ -23,7 +23,7 @@ doi: [https://doi.org/10.48550/arXiv.2302.12017 https:\/\/doi.org\/10.48550\/arX
 
 - *P. Xie* and Y.-x. Yuan, \"A derivative-free optimization algorithm combining line-search and trust-region techniques\" (in English） \n 
 [https://www.springer.com/journal/11401 Chinese Annals of Mathematics, Series B], 44(5), 719–734, 2023\n
-[https://camath.fudan.edu.cn/camb/ch/reader/view_abstract.aspx?file_no=202305005&flag=1 https://camath.fudan.edu.cn/camb/ch/reader/view_abstract.aspx?file_no=202305005&flag=1], [https://camath.fudan.edu.cn/camb/ch/reader/create_pdf.aspx?file_no=202305005&flag=1 \[Link\]]
+[https://link.springer.com/article/10.1007/s11401-023-0040-y \[Link1\]] [https://camath.fudan.edu.cn/camb/ch/reader/create_pdf.aspx?file_no=202305005&flag=1 \[Link2\]] [https://camath.fudan.edu.cn/camb/ch/reader/view_abstract.aspx?file_no=202305005&flag=1 https://camath.fudan.edu.cn/camb/ch/reader/view_abstract.aspx?file_no=202305005&flag=1]
 
 
 - *P. Xie*, \"A derivative-free trust-region method for optimization on the ellipsoid\", 2023 \n
@@ -34,7 +34,6 @@ also presented in [http://www.icacse.net/ 2023 International Conference on Advan
 
 
 - *P. Xie*, \"Sufficient conditions for distance reduction between the minimizers of non-convex quadratic functions in the trust region\", 2023 \n
-under review \n
 doi: [https://doi.org/10.48550/arXiv.2310.08603 https:\/\/doi.org\/10.48550\/arXiv.2310.08603], [https://arxiv.org/pdf/2310.08603.pdf \[Link\]]\n
 
 
