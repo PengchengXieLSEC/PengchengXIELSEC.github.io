@@ -1,0 +1,85 @@
+# jemdoc: menu{MENU}{index.html}, nofooter
+
+
+~~~
+- least H^2 norm updating model [https://github.com/PengchengXieLSEC/least_H2_norm_updating_model \[Link\]]
+~~~
+
+~~~
+- NEWUOA-Trans [https://github.com/PengchengXieLSEC/NEWUOA-Trans \[Link\]]
+
+- NEWUOA-Trans-Matlab-Version-1.0 [https://github.com/PengchengXieLSEC/NEWUOA-Trans-Matlab-Version-1.0 \[Link\]] 
+
+- NEWUOA-Trans-Matlab-Version-2.0 [https://github.com/PengchengXieLSEC/NEWUOA-Trans-Matlab-Version-2.0 \[Link\]]
+
+- NEWUOA-Trans-Matlab-Version-2.0 (MathWorks Link) [https://ww2.mathworks.cn/matlabcentral/fileexchange/123845-newuoa-trans-matlab-version-2-0?s_tid=FX_rc1_behav \[Link\]]
+
+- NEWUOA-Trans-Matlab-Version-3.0 [https://github.com/PengchengXieLSEC/NEWUOA-Trans-Matlab-Version-3.0 \[Link\]]
+~~~
+
+~~~
+- NEWUOA-Matlab-Version-1.0 [https://github.com/PengchengXieLSEC/NEWUOA-matlab-V1.0- \[Link\]], NEWUOA-Matlab-Version-2.0 (MathWorks Link) [https://ww2.mathworks.cn/matlabcentral/fileexchange/121418-newuoa-matlab-version-2-0 \[Link\]]
+
+- NEWUOA-py [https://github.com/PengchengXieLSEC/NEWUOA-py \[Link\]]
+~~~
+
+~~~
+- BOBYQA-Matlab-Version-1.0 (MathWorks Link) [https://ww2.mathworks.cn/matlabcentral/fileexchange/123640-bobyqa-matlab-version-1-0 \[Link\]] 
+
+- BOBYQA-Python-Version-1.0 [https://github.com/PengchengXieLSEC/BOBYQA-Python-Version-1.0 \[Link\]], BOBYQA-Python-Version-2.0 [https://github.com/PengchengXieLSEC/BOBYQA-Python-Version-2.0 \[Link\]]
+~~~
+
+~~~
+- SUSD-TR method (Python codes) [https://github.com/PengchengXieLSEC/SUSD-TR \[Link\]]
+
+
+- Test-codes-for-SUSD-TR [https://github.com/PengchengXieLSEC/Test-codes-for-SUSD-TR \[Link\]]
+~~~
+
+~~~
+- Optimality Model Examples [https://github.com/PengchengXieLSEC/Optimality-Model-Examples \[Link\]] 
+~~~
+
+~~~
+- Test codes for simple direct search method [https://github.com/PengchengXieLSEC/Test-codes-for-simple-direct-search-method \[Link\]]
+
+
+- Test codes for trust region method based on fully quadratic models [https://github.com/PengchengXieLSEC/testing-Trust-region-method-based-on-fully-quadratic-models \[Link\]]
+
+
+
+
+- Combination of trust-region and direct search [https://github.com/PengchengXieLSEC/Combination-of-trust-region-and-direct-search \[Link\]]
+~~~
+
+~~~
+- Global derivative-free trust-region method with warm restarts (GDTRWR) [https://github.com/PengchengXieLSEC/GDTRWR \[Link\]] (to be released)
+~~~
+
+
+~~~
+- Codes for the paper entitled \"A new derivative-free method using an improved under-determined quadratic interpolation model\" [https://github.com/PengchengXieLSEC/A-New-DFO-Method-Using-an-Improved-Model \[Link\]]
+~~~
+
+~~~
+- 2D-MoSub [https://github.com/PengchengXieLSEC/Large-Scale \[Link\]] \n
+- 2D-MoSub Python-Version [https://github.com/PengchengXieLSEC/Large-Scale-Python \[Link\]] 
+~~~
+
+
+
+
+
+
+The codes above are copyrighted by Pengcheng Xie.\n 
+If you use or modify them in a paper, please cite our corresponding papers or this website. \n 
+Contact: xpc@lsec.cc.ac.cn
+
+
+
+
+
+
+
+
+
